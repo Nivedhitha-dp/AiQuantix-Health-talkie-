@@ -1,2 +1,8 @@
-rasa==2.8.23
+This is a Rasa Server that is to be instantiated/installed, thus:
+
+Requirement are:
+
+rasa==3.0.0
+rasa-sdk==3.0.0
+spacy==3.0.6
 geopy
