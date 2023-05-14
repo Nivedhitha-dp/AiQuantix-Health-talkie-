@@ -1,0 +1,876 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+        <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta content="text/html;charset=utf-8" http-equiv="Content-Type" />
+    <meta content="utf-8" http-equiv="encoding" />
+
+    <!--Import Google Icon Font-->
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Raleway:500&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato&display=swap"
+      rel="stylesheet"
+    />
+
+    <!--Import Font Awesome Icon Font-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+      integrity="sha256-eZrrJcwDc/3uDhsdt61sL2oOBY362qM3lon1gyExkL0="
+      crossorigin="anonymous"
+    />
+
+    <!--Import materialize.css-->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="static/css/materialize.min.css"
+    />
+
+    <!--Main css-->
+    <link rel="stylesheet" type="text/css" href="static/css/style.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    	<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!--<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">-->
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body, h1,h2,h3,h4,h5,h6 {font-family: Arial, sans-serif}
+.w3-row-padding img {margin-bottom: 12px}
+/* Set the width of the sidebar to 120px */
+.w3-sidebar {width: 120px;background: #222;}
+/* Add a left margin to the "page content" that matches the width of the sidebar (120px) */
+#main {margin-left: 120px}
+/* Remove margins from "page content" on small screens */
+@media only screen and (max-width: 600px) {#main {margin-left: 0}}
+</style>
+
+
+<!--<script type="text/javascript">-->
+<!--    setUserResponse("Welcome,greet ny saying 'Hi'!");-->
+<!--</script>-->
+
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+		integrity=
+"sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+		crossorigin="anonymous">
+	</script>
+
+    <!--new web-->
+  <meta charset="UTF-8">
+    <meta name="viewport" content1="width=device-width, initial-scale=1.0">
+    <title>Responsive Covid-19 Website Design Tutorial</title>
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+  <!--new web head end-->
+</head>
+
+<body>
+<div class="container">
+      <!-- Modal for rendering the charts, declare this if you want to render charts,
+         else you remove the modal -->
+
+      <div id="modal1" class="modal">
+        <canvas id="modal-chart"></canvas>
+      </div>
+
+      <!--chatbot widget -->
+      <div class="widget">
+
+
+<div class="logo">
+        <img src="https://i.ibb.co/sgNrmDW/doctor.png">
+        </div>
+        <div class="chat_header">
+           <div id="metaverse" class="sen se" onclick="window.open('https://framevr.io/health-talkie#outside-entrance', '_blank','noopener,noreferrer');">
+<!--               <a href="https://framevr.io/health-talkie#outside-entrance" target = "_blank">-->
+<span class="tooltipText met">Metaverse</span>
+<!--                <span class="tooltipText ws">Upload</span>-->
+               <img src="https://i.ibb.co/qyyyskM/3d-nft-icon-metaverse-illustration-629802-14-removebg-preview.png" alt="Computer man" style="width:55px;height:55px;">
+                   </a>
+            </div>
+<div id="ambulance" onCLick="send('Ambulance');setUserResponse('Ambulance');" class="sen se">
+    <span class="tooltipText met">Ambulance</span>
+                <i class="fa fa-ambulance" aria-hidden="true"></i>
+            </div>
+
+          <!--Add the name of the bot here -->
+<!--          <span class="chat_header_title"><img src="https://i.ibb.co/bXX9Wd4/6s-280px-unscreen.gif" alt="Health Talkie" width="200" height="200"></span>-->
+          <span class="chat_header_title"><img id="heltak" src="https://i.ibb.co/bXX9Wd4/6s-280px-unscreen.gif" alt="Health Talkie" width="200" height="200"></span>
+            <span class="dropdown-trigger" href="#" data-target="dropdown1">
+            <i class="material-icons"> more_vert </i>
+          </span>
+          <div id="keybutton" onCLick="jooop()" class="sen se">
+              <span class="tooltipText met">Keyboard</span>
+                <i class="fa fa-keyboard-o"></i>
+<!--              <img src="https://i.pinimg.com/originals/e7/1b/1c/e71b1c46809e1bbf63f5fec0fb5314db.gif" alt="Computer man" style="width:55px;height:55px;">-->
+            </div>
+
+
+          <!-- Dropdown menu-->
+
+<!--            <div class = "formslink fs">-->
+<!--            <a href="https://docs.google.com/forms/d/e/1FAIpQLScl6asK4G-Ih33xMw5buxYs3Dna5EGrTQ179aOpL6xZWpDOtQ/viewform" target = "_blank">-->
+<!--&lt;!&ndash;            <i class="fa fa-home" ></i>&ndash;&gt;-->
+<!--                <span class="tooltipText ps">Query</span>-->
+<!--                <i class="fa fa-file-text" ></i>-->
+<!--            </a>-->
+<!--            </div>-->
+
+
+          <ul id="dropdown1" class="dropdown-content">
+            <li><a href="#" id="clear">Clear</a></li>
+            <li><a href="#" id="restart">Restart</a></li>
+            <li><a href="#" id="close">Close</a></li>
+          </ul>
+
+        </div>
+
+        <!--Chatbot contents goes here -->
+        <div class="chats" id="chats">
+          <div class="clearfix"></div>
+
+        </div>
+
+        <!--keypad for user to type the message -->
+        <div class="keypad">
+          <textarea
+            id="userInput"
+            placeholder="Say 'Hi' to start "
+            class="usrInput"
+          ></textarea>
+
+
+
+           <div id="sendButton" class="sen se">
+              <span class="tooltipText fb">Send</span>
+            <i class="fa fa-paper-plane" aria-hidden="true"></i>
+          </div>
+
+            <div id="voiceButton" onCLick="record()" class="sen se">
+                <span class="tooltipText tw">Tap to Speak</span>
+                <i class="fa fa-microphone"></i>
+            </div>
+
+            <div id="come" onclick="MY()" class="sen se">
+                <span class="tooltipText ws">Mute Bot</span>
+                <i class="fa fa-volume-up" id="go"></i>
+            </div>
+<!--            ...........after volume up..............-->
+
+<div id="come1" class="sen se" onclick="window.open('http://127.0.0.1:8000/', '_blank','noopener,noreferrer');">
+<!--                <a href="http://127.0.0.1:8000/" target = "_blank">-->
+
+                <span class="tooltipText up">Upload</span>
+                <i class="fas fa-upload"></i>
+<!--</a>-->
+            </div>
+<!--            <div id="come" onclick="var iframe = document.createElement('iframe');iframe.src = 'http://127.0.0.1:8000/';iframe.width = '100%';iframe.height = '500px';document.body.appendChild(iframe);" class="sen se">-->
+<!--                <span class="tooltipText ws">Mute Bot</span>-->
+<!--                <i class="fa fa-microphone" id="go"></i>-->
+<!--            </div>-->
+
+
+
+
+
+        </div>
+      </div>
+
+<script type="text/javascript">
+		$("#go").click(function MY() {
+			$("#go").toggleClass("fa-volume-up fa-volume-off");
+                if(count%2==0){
+                  responsiveVoice.cancel();
+                  }
+                  count++;
+
+		});
+</script>
+
+      <!--bot profile-->
+      <div class="profile_div" id="profile_div">
+        <img class="imgProfile" src="https://i.ibb.co/yqbFqHC/iconvideo-unscreen.gif"/>
+      </div>
+
+      <!-- Bot pop-up intro -->
+<!--      <div class="tap-target" data-target="profile_div">-->
+<!--        <div class="tap-target-content">-->
+<!--          <h4 class="black-text"> </h4>-->
+<!--          <p class="black-text">-->
+<!--&lt;!&ndash;               I can help you get started with A I C T E related queries!!&ndash;&gt;-->
+<!--          </p>-->
+<!--        </div>-->
+<!--      </div>-->
+    </div>
+
+    <!--JavaScript at end of body for optimized loading-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script
+      type="text/javascript"
+      src="static/js/lib/materialize.min.js"
+    ></script>
+    <script src="static/js/lib/uuid.min.js"></script>
+    <!--Main Script -->
+    <script type="text/javascript" src="static/js/script.js"></script>
+
+    <!--Chart.js Script -->
+    <script type="text/javascript" src="static/js/lib/chart.min.js"></script>
+    <script type="text/javascript" src="static/js/lib/showdown.min.js"></script>
+    <script>
+        function record() {
+            var recognition = new webkitSpeechRecognition();
+            recognition.lang = 'en-GB';
+
+            recognition.onresult = function(event) {
+                // console.log(event);
+                document.getElementById('userInput').value = event.results[0][0].transcript;
+            }
+            recognition.start();
+
+        }
+    </script>
+
+
+
+<script>
+function jooop() {
+  var x = document.getElementById("keyboard");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+</script>
+
+<script>
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  if (n > x.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";
+  }
+  x[slideIndex-1].style.display = "block";
+}
+ </script>
+
+<!--    <div id="keyboard" class="center">-->
+<!--			<div id="firstLine" class="center">-->
+<!--				<button type="button" value="1" onclick="input_Run(this.value);">1</button>-->
+<!--				<button type="button" value="2" onclick="input_Run(this.value);">2</button>-->
+<!--				<button type="button" value="3" onclick="input_Run(this.value);">3</button>-->
+<!--				<button type="button" value="4" onclick="input_Run(this.value);">4</button>-->
+<!--				<button type="button" value="5" onclick="input_Run(this.value);">5</button>-->
+<!--				<button type="button" value="6" onclick="input_Run(this.value);">6</button>-->
+<!--				<button type="button" value="7" onclick="input_Run(this.value);">7</button>-->
+<!--				<button type="button" value="8" onclick="input_Run(this.value);">8</button>-->
+<!--				<button type="button" value="9" onclick="input_Run(this.value);">9</button>-->
+<!--				<button type="button" value="0" onclick="input_Run(this.value);">0</button>-->
+<!--			</div>-->
+<!--			<div id="secondLine" class="center">-->
+<!--				<button type="button" value="q" onclick="input_Run(this.value);">q</button>-->
+<!--				<button type="button" value="w" onclick="input_Run(this.value);">w</button>-->
+<!--				<button type="button" value="e" onclick="input_Run(this.value);">e</button>-->
+<!--				<button type="button" value="r" onclick="input_Run(this.value);">r</button>-->
+<!--				<button type="button" value="t" onclick="input_Run(this.value);">t</button>-->
+<!--				<button type="button" value="y" onclick="input_Run(this.value);">y</button>-->
+<!--				<button type="button" value="u" onclick="input_Run(this.value);">u</button>-->
+<!--				<button type="button" value="i" onclick="input_Run(this.value);">i</button>-->
+<!--				<button type="button" value="o" onclick="input_Run(this.value);">o</button>-->
+<!--				<button type="button" value="p" onclick="input_Run(this.value);">p</button>-->
+<!--			</div>-->
+<!--			<div id="thirdLine" class="center">-->
+<!--				<button type="button" value="a" onclick="input_Run(this.value);">a</button>-->
+<!--				<button type="button" value="s" onclick="input_Run(this.value);">s</button>-->
+<!--				<button type="button" value="d" onclick="input_Run(this.value);">d</button>-->
+<!--				<button type="button" value="f" onclick="input_Run(this.value);">f</button>-->
+<!--				<button type="button" value="g" onclick="input_Run(this.value);">g</button>-->
+<!--				<button type="button" value="h" onclick="input_Run(this.value);">h</button>-->
+<!--				<button type="button" value="j" onclick="input_Run(this.value);">j</button>-->
+<!--				<button type="button" value="k" onclick="input_Run(this.value);">k</button>-->
+<!--				<button type="button" value="l" onclick="input_Run(this.value);">l</button>-->
+<!--			</div>-->
+<!--			<div id="fourthLine" class="center">-->
+<!--				<button type="button" value="z" onclick="input_Run(this.value);">z</button>-->
+<!--				<button type="button" value="x" onclick="input_Run(this.value);">x</button>-->
+<!--				<button type="button" value="c" onclick="input_Run(this.value);">c</button>-->
+<!--				<button type="button" value="v" onclick="input_Run(this.value);">v</button>-->
+<!--				<button type="button" value="b" onclick="input_Run(this.value);">b</button>-->
+<!--				<button type="button" value="n" onclick="input_Run(this.value);">n</button>-->
+<!--				<button type="button" value="m" onclick="input_Run(this.value);">m</button>-->
+<!--			</div>-->
+<!--			<div id="fourthLine" class="center">-->
+<!--				<button type="button" value=" " onclick="input_Run(this.value);">Space</button>-->
+<!--				<button type="button" onclick="backspace();">Backspace</button>-->
+<!--			</div>-->
+<!--		</div>-->
+<div id="keyboard">
+        	<div class="base">
+		<div class="line1">
+			<span onclick="input_Run('q')">q</span>
+            <span onclick="input_Run('w')">w</span>
+            <span onclick="input_Run('e')">e</span>
+            <span onclick="input_Run('r')">r</span>
+            <span onclick="input_Run('t')">t</span>
+            <span onclick="input_Run('y')">y</span>
+            <span onclick="input_Run('u')">u</span>
+            <span onclick="input_Run('i')">i</span>
+            <span onclick="input_Run('o')">o</span>
+            <span onclick="input_Run('p')">p</span>
+		</div>
+		<div class="line2">
+			<span onclick="input_Run('a')">a</span>
+			<span onclick="input_Run('s')">s</span>
+			<span onclick="input_Run('d')">d</span>
+			<span onclick="input_Run('f')">f</span>
+			<span onclick="input_Run('g')">g</span>
+			<span onclick="input_Run('h')">h</span>
+			<span onclick="input_Run('j')">j</span>
+			<span onclick="input_Run('k')">k</span>
+			<span onclick="input_Run('l')">l</span>
+		</div>
+		<div class="line3">
+			<span><svg enable-background="new 0 0 500 500" id="arrow" version="1.1" viewBox="0 0 500 500" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path clip-rule="evenodd" d="M433.704,237.465c4.456,6.086,7.092,13.539,7.092,21.622  c0,20.079-16.266,36.341-36.344,36.341h-36.341c-9.991,0-18.173,8.18-18.173,18.172v109.025c0,20.079-16.262,36.341-36.341,36.341  H186.4c-20.079,0-36.34-16.262-36.34-36.341V313.6c0-9.992-8.181-18.172-18.172-18.172H95.547  c-20.079,0-36.342-16.262-36.342-36.341c0-8.083,2.635-15.536,7.08-21.622L217.747,54.388c17.807-17.808,46.695-17.808,64.505,0  L433.704,237.465z"/></svg></span>
+			<span onclick="input_Run('z')">z</span>
+			<span onclick="input_Run('x')">x</span>
+			<span onclick="input_Run('c')">c</span>
+			<span onclick="input_Run('v')">v</span>
+			<span onclick="input_Run('b')">b</span>
+			<span onclick="input_Run('n')">n</span>
+			<span onclick="input_Run('m')">m</span>
+			<span onclick="backspace()"><svg baseProfile="tiny" id="backspace" version="1.2" viewBox="0 0 24 24" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M19.5,5h-10C8.234,5,6.666,5.807,5.93,6.837L3.32,10.49c-0.642,0.898-1.182,1.654-1.199,1.679  C2,12.344,1.999,12.661,2.124,12.833c0.023,0.033,0.555,0.777,1.188,1.664l2.619,3.667C6.666,19.193,8.233,20,9.5,20h10  c1.379,0,2.5-1.122,2.5-2.5v-10C22,6.122,20.879,5,19.5,5z M17.207,14.793c0.391,0.391,0.391,1.023,0,1.414  C17.012,16.402,16.756,16.5,16.5,16.5s-0.512-0.098-0.707-0.293L13.5,13.914l-2.293,2.293C11.012,16.402,10.756,16.5,10.5,16.5  s-0.512-0.098-0.707-0.293c-0.391-0.391-0.391-1.023,0-1.414l2.293-2.293l-2.293-2.293c-0.391-0.391-0.391-1.023,0-1.414  s1.023-0.391,1.414,0l2.293,2.293l2.293-2.293c0.391-0.391,1.023-0.391,1.414,0s0.391,1.023,0,1.414L14.914,12.5L17.207,14.793z"/></svg></span>
+		</div>
+		<div class="line4">
+			<span>123</span>
+			<span><svg viewBox="0 0 48 48" id="smile" xmlns="http://www.w3.org/2000/svg"><path d="M0 0h48v48h-48z" fill="none"/><path d="M23.99 4c-11.05 0-19.99 8.95-19.99 20s8.94 20 19.99 20c11.05 0 20.01-8.95 20.01-20s-8.96-20-20.01-20zm.01 36c-8.84 0-16-7.16-16-16s7.16-16 16-16 16 7.16 16 16-7.16 16-16 16zm7-18c1.66 0 3-1.34 3-3s-1.34-3-3-3-3 1.34-3 3 1.34 3 3 3zm-14 0c1.66 0 3-1.34 3-3s-1.34-3-3-3-3 1.34-3 3 1.34 3 3 3zm7 13c4.66 0 8.61-2.91 10.21-7h-20.42c1.6 4.09 5.55 7 10.21 7z"/></svg></span>
+			<span onclick="record()"><svg baseProfile="tiny" id="mic" version="1.1" viewBox="0 0 32 32" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><g id="Guides_x26_Forms"/><g id="Icons"><g><path d="M16,21c2.209,0,4-1.791,4-4v-7c0-2.209-1.791-4-4-4c-2.209,0-4,1.791-4,4v7C12,19.209,13.791,21,16,21z M14,10    c0-1.103,0.897-2,2-2c1.103,0,2,0.897,2,2v7c0,1.103-0.897,2-2,2c-1.103,0-2-0.897-2-2V10z"/><path d="M24,17h-2c0,3.308-2.692,6-6,6s-6-2.692-6-6H8c0,4.079,3.055,7.438,7,7.931V26h-4v2h10v-2h-4v-1.069    C20.945,24.438,24,21.079,24,17z"/></g></g></svg></span>
+			<span onclick="input_Run(' ')">Space</span>
+			<span>Return</span>
+		</div>
+	</div>
+    </div>
+<style>
+
+span {
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+
+}
+
+.base {
+  border-radius: 10px;
+  background: #272B2C;
+  display: flex;
+  width: 650px;
+  height: auto;
+  flex-direction: column;
+  padding: 30px 15px;
+  font: 28px arial;
+  box-shadow: 0px 40px 45px rgba(0, 0, 0, .4);
+}
+
+div[class*='line'] {
+  display: flex;
+  justify-content: space-around;
+}
+
+div[class*='line'] + div[class*='line'] {
+  margin-top: 15px;
+}
+
+.line1,
+.line3 {
+  padding: 0 15px;
+}
+
+.line2 {
+  padding: 0 30px;
+}
+
+div[class*='line'] span {
+  box-shadow: 0px 3px 3px #ed5145;
+  color: #ed5145;
+  padding: 15px;
+  background: #2F3336;
+  border-radius: 12px;
+  text-shadow: 0px 0px 40px #ed5145, 0px 0px 80px #ed5145;
+  width: 50px;
+  text-align: center;
+}
+
+div[class*='line'] span:hover {
+  /*   box-shadow: 0px 2px 10px #040404;*/
+
+  background: #2F3336;
+  text-shadow: 1px 2px 60px #ed5145, 0px 0px 60px #ed5145, 0px 0px 60px #ed5145, 10px 10px 60px #ed5145;
+  cursor: pointer
+}
+
+div[class*='line'] span:active {
+  transform: scale(.9);
+}
+
+.line3 span:first-of-type {
+  width: 60px;
+  padding: 10px 15px;
+}
+
+.line3 span:last-of-type {
+  width: 60px;
+  padding: 10px 15px;
+}
+
+.line4 span:nth-child(1) {
+  width: 75px
+}
+
+.line4 span:nth-child(2) {
+  width: 75px;
+  padding: 10px 15px;
+}
+
+.line4 span:nth-child(3) {
+  width: 75px;
+  padding: 10px 15px;
+}
+
+.line4 span:nth-child(4) {
+  width: 255px
+}
+
+.line4 span:last-of-type {
+  width: 105px
+}
+
+#arrow,
+#backspace,
+#smile,
+#mic {
+  fill: #ed5145;
+
+  width: 35px;
+ height:35px;
+  -webkit-filter: drop-shadow(0px 2px 20px #ed5145)
+    filter: drop-shadow(0px 2px 20px #ed5145)
+}
+
+#arrow:hover,
+#backspace:hover,
+#smile:hover,
+#mic:hover {
+  -webkit-filter: drop-shadow(0px 2px 15px #ed5145)
+    filter: drop-shadow(0px 2px 15px #ed5145)
+}
+</style>
+<script type="text/javascript">
+responsiveVoice.allowSpeech(true);
+</script>
+<script>
+			function input_Run(y){
+				document.getElementById("userInput").value += y;
+			}
+			function backspace(){
+				document.getElementById("userInput").value = document.getElementById("userInput").value.substring(0, document.getElementById("userInput").value.length -1);
+			}
+		</script>
+</body>
+<body>
+
+<!-- header section starts  -->
+
+<header>
+
+    <img height="30px" src="https://i.ibb.co/wN70ScM/unnamed.gif">
+
+    <div id="menu1" class="fas fa-bars"></div>
+
+    <div class="navbar1">
+        <ul>
+            <li><a class="active1" href="#home1">home</a></li>
+            <li><a href="#protect1">Our Experts</a></li>
+            <li><a href="#symtoms1">Quick Tips</a></li>
+            <li><a href="#prevent1">Why Choose us? </a></li>
+            <li><a href="#handwash1">Our Services</a></li>
+            <li><a href="#spread1">Find Us</a></li>
+        </ul>
+    </div>
+
+</header>
+<section class="banner" style="height: 1000px;
+  width: 100%; left: 0px;" >
+    <svg class = "waves" style="position: absolute; left:0; width:100%;top:80; " xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#ed5145" fill-opacity="1" d="M0,288L17.1,256C34.3,224,69,160,103,165.3C137.1,171,171,245,206,256C240,267,274,213,309,165.3C342.9,117,377,75,411,74.7C445.7,75,480,117,514,149.3C548.6,181,583,203,617,208C651.4,213,686,203,720,202.7C754.3,203,789,213,823,192C857.1,171,891,117,926,106.7C960,96,994,128,1029,160C1062.9,192,1097,224,1131,213.3C1165.7,203,1200,149,1234,138.7C1268.6,128,1303,160,1337,176C1371.4,192,1406,192,1423,192L1440,192L1440,0L1422.9,0C1405.7,0,1371,0,1337,0C1302.9,0,1269,0,1234,0C1200,0,1166,0,1131,0C1097.1,0,1063,0,1029,0C994.3,0,960,0,926,0C891.4,0,857,0,823,0C788.6,0,754,0,720,0C685.7,0,651,0,617,0C582.9,0,549,0,514,0C480,0,446,0,411,0C377.1,0,343,0,309,0C274.3,0,240,0,206,0C171.4,0,137,0,103,0C68.6,0,34,0,17,0L0,0Z"></path></svg>
+        <br>
+    <br>
+    <br>
+
+
+
+    <img src="https://i.ibb.co/dLQ7Pnm/image-1.png" alt="" width=100% height=60% >
+</section>
+<!-- header section ends -->
+
+<!-- home section starts  -->
+<br>
+<!--<div style="background-image: url('https://i.ibb.co/bzrw92P/Pngtree-prescription-drug-medicine-medical-pills-594865.jpg');-->
+<!--  background-repeat: no-repeat;-->
+<!--  background-attachment: fixed;-->
+<!--  background-size: 100% 90%;">-->
+
+
+<section class="home1" id="home1" >
+<!--style="background-image: url('https://i.ibb.co/hgyfKDL/Screenshot-2023-03-30-141503.png');
+
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;"-->
+<!-- <img src="https://i.ibb.co/fFR6qPz/Picture1.png" height="500px"; width="700px;">-->
+    <img src="https://i.ibb.co/GH6D38F/image-2.png" alt="" width=100% height=100% >
+    <div class="content1" >
+<img src="https://orangecountycovidclinic.com/wp-content/uploads/2023/02/Group-2.png" alt="">
+
+<!--        <p class="text" style="display:inline; left:200%;">-->
+<!--            <span style="color:#4F6328; font-size:30px; font-family:Berlin sans FB;-->
+<!--font-weight:bold;">H</span>-->
+<!--      <span style="color:#BE0000; font-size:30px;font-family:Berlin sans FB;-->
+<!--font-weight:bold;">e</span>-->
+<!-- <span style="color:#1F4A7C; font-size:30px; font-family:Berlin sans FB;-->
+<!--font-weight:bold;">a</span>-->
+<!--<span style="color:#00AF50; font-size:30px;font-family:Berlin sans FB;-->
+<!--font-weight:bold;">l</span>-->
+<!--<span style="color:#61497B; font-size:30px;font-family:Berlin sans FB;-->
+<!--font-weight:bold;">t</span>-->
+<!--<span style="color:#E46C0B; font-size:30px;font-family:Berlin sans FB;-->
+<!--font-weight:bold;">h</span>-->
+<!--<span style="color:rgba(234,240,246,0.1); font-size:30px;">__</span>-->
+<!--</p>-->
+
+<!--<p style="display:inline; font-weight:bold; font-family:Berlin sans FB">-->
+<!--       <span style="color:#558ED5; font-size:30px;font-family:Berlin sans FB;-->
+<!--font-weight:bold;">T</span>-->
+<!--      <span style="color:#000000; font-size:30px;font-family:Berlin sans FB;-->
+<!--font-weight:bold;">a</span>-->
+<!-- <span style="color:#604A7B; font-size:30px;font-family:Berlin sans FB;-->
+<!--font-weight:bold;">l</span>-->
+<!--<span style="color:#31859D; font-size:30px;font-family:Berlin sans FB;-->
+<!--font-weight:bold;">k</span>-->
+<!--<span style="color:#77933C; font-size:30px;font-family:Berlin sans FB;-->
+<!--font-weight:bold;">i</span>-->
+<!--<span style="color:#FEC000; font-size:30px;font-family:Berlin sans FB;-->
+<!--font-weight:bold;">e</span>-->
+<!--</p>-->
+
+<!--        <a href="#" class="btn1">protect now</a>-->
+
+    </div>
+
+    <div class="image1">
+        <img src="https://universityhtsmedclinic.com/wp-content/uploads/2022/05/nurse-min-1024x988.png" alt="">
+    </div>
+
+</section>
+
+<!-- home section ends -->
+
+<section class="protect1" id="protect1">
+
+<!--    <h1 class="heading1">take steps to <span>protect</span> yourself</h1>-->
+<h1 class="heading1">"Meet our team of expert healers - Your health is our priority!"</h1>
+    <div class="box-container1">
+
+        <div class="box1">
+            <img src="https://cdn-icons-png.flaticon.com/512/4497/4497898.png" alt="">
+            <h3>General Practitioner</h3>
+            <p>Looking for a trusted and experienced general doctor to guide you on your healthcare journey? Look no further! Our team of dedicated medical professionals is here to provide you with the personalized care and attention you deserve.</p>
+            <a href="#" class="btn1">Meet Our Experts !</a>
+        </div>
+
+        <div class="box1">
+            <img src="https://img.freepik.com/premium-photo/doctors-group-medical-workers-are-holding-syringe-chief-physician-medical-specialists-3d-illustration-cartoon-style_578102-3484.jpg" alt="" width="500" height="600">
+            <h3>Specialists</h3>
+            <p> Whether you need care for your heart, lungs, kidneys, liver, or any other organ, our specialists are here to help. We offer a wide range of services, from routine check-ups and screenings to advanced diagnostic and treatment options.</p>
+            <a href="#" class="btn1">Meet Our Experts !</a>
+        </div>
+
+        <div class="box1">
+            <img src="https://cdni.iconscout.com/illustration/premium/thumb/pediatrician-examines-baby-7340148-6012603.png" alt="" width="500" height="600">
+            <h3>Pediatrician</h3>
+            <p>Welcome to our pediatrician services! Our dedicated team of pediatricians is here to provide comprehensive and compassionate care to your little ones with utmost care in a fun oriented approach.</p>
+            <a href="#" class="btn1">Meet Our Experts !</a>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- symtoms section starts  -->
+
+<section class="symtoms1" id="symtoms1" style="text-align: center;">
+
+    <div class="content1">
+<!--        <h1 class="heading1">What Are The Main <span>Symptoms?</span></h1>-->
+        <h1 class="heading1"><span>Home Healing Hacks</span></h1>
+<!--        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis eos ex, magnam odit quaerat labore amet! Numquam obcaecati nobis possimus.</p>-->
+        <p style="font-size:20px;font-color:black;">"Tap into the healing power of nature with simple home remedies - Your natural path to optimal health and wellness!"</p>
+<!--        <ul>-->
+<!--            <div class="one1">-->
+<!--                <li>fever</li>-->
+<!--                <li>Tiredness</li>-->
+<!--                <li>Dry Cough</li>-->
+<!--            </div>-->
+<!--            <div class="two1">-->
+<!--                <li>Sore Throat</li>-->
+<!--                <li>Aches and Pains</li>-->
+<!--                <li>Shortness of Breath</li>-->
+<!--            </div>-->
+<!--        </ul>-->
+        <img src = "https://i.ibb.co/19hBQ71/medication-vs-natural-remedies-drugs-pills-medicinal-syrup-honey-ginger-lemon-vector-cartoon-illustr.png" alt="" style="  width: 80%;">
+        <a href="#" class="btn1">Explore Home Remedies</a>
+    </div>
+
+    <div class="image1">
+        <img src="https://cdn3d.iconscout.com/3d/premium/thumb/boys-meditating-on-world-health-day-5112785-4268953.png" alt="">
+    </div>
+
+</section>
+
+<!-- symtoms section ends -->
+
+<!-- prevent section starts  -->
+
+<section class="prevent1" id="prevent1">
+
+    <div class="row1">
+
+        <div class="image1">
+            <img src="https://cdni.iconscout.com/illustration/premium/thumb/city-hospital-4600272-3798620.png" alt="">
+        </div>
+
+        <div class="content1">
+<!--            <h1 class="heading">things <span>not to do</span> during covid</h1>-->
+<!--            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugiat nulla, dolor excepturi repellendus officiis expedita saepe veniam minima adipisci tenetur?</p>-->
+<!--            <ul>-->
+<!--                <li>Do Not Share Eating</li>-->
+<!--                <li>Do Not Touch Your Face or Nose</li>-->
+<!--                <li>Do Not Contact Sick People</li>-->
+<!--            </ul>-->
+<!--        </div>-->
+        <br>
+<!--        <div>-->
+<!--            <p>.......</p>-->
+<!--        </div>-->
+        <br>
+<!--        <div class="content1">-->
+            <h1 class="heading1">   <span> About</span> Us</h1>
+            <p style="font-size:20px; color:white">  Welcome to our health website, where we strive to provide you with all the services you need to manage your health and wellness. We understand that navigating the healthcare system can be challenging, which is why we aim to make it as easy and convenient as possible for you.</p>
+<!--            <ul>-->
+<!--                <li>Do Not Share Eating</li>-->
+<!--                <li>Do Not Touch Your Face or Nose</li>-->
+<!--                <li>Do Not Contact Sick People</li>-->
+<!--            </ul>-->
+        </div>
+
+    </div>
+
+    <div class="row1">
+
+        <div class="content1">
+            <h1 class="heading1">Why <span>Chatbot?</span></h1>
+<!--            <h1 class="heading1">things <span>to do</span> during covid</h1>-->
+<!--            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugiat nulla, dolor excepturi repellendus officiis expedita saepe veniam minima adipisci tenetur?</p>-->
+<!--            <ul>-->
+<!--                <li>Wash Your Hands For 20 sec</li>-->
+<!--                <li>Wear a Mask if Available</li>-->
+<!--                <li>Seek Medical Care Regularly</li>-->
+<!--            </ul>-->
+<!--        </div>-->
+<!--        <div class="content1">-->
+<!--            <h1 class="heading1">Why <span>Chatbot?</span></h1>-->
+            <p style="font-size:20px; color:white">"Experience the future of healthcare with our innovative chatbot - personalized, efficient, and always there for you!"</p>
+<!--            <ul>-->
+<!--                <li>Wash Your Hands For 20 sec</li>-->
+<!--                <li>Wear a Mask if Available</li>-->
+<!--                <li>Seek Medical Care Regularly</li>-->
+<!--            </ul>-->
+        </div>
+
+        <div class="image1">
+            <img src="https://og-blog-css.outgrow.co/blog/wp-content/uploads/2019/01/robo_small.gif?x65579" alt="">
+        </div>
+
+    </div>
+
+</section>
+
+<!-- prevent section ends -->
+
+<!-- handwash section starts  -->
+
+<section class="handwash1" id="handwash1">
+
+    <h1 class="heading1"><span>Elevating Your Expectations</span></h1>
+
+    <div class="box-container1">
+
+        <div class="box1">
+            <span>1</span>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/Doctor_with_Patient_Cartoon.svg/1200px-Doctor_with_Patient_Cartoon.svg.png" alt="">
+            <h3>Book a Visit</h3>
+        </div>
+
+        <div class="box1">
+            <span>2</span>
+            <img src="https://cdn-icons-png.flaticon.com/512/4861/4861715.png" alt="">
+            <h3>Get Your Meds</h3>
+        </div>
+
+        <div class="box1">
+            <span>3</span>
+            <img src="https://www.pngkit.com/png/full/251-2511622_ambulance-drawing-side-view-ambulance-cartoon.png" alt="">
+            <h3>Book Your Emergency Ride</h3>
+        </div>
+
+        <div class="box1">
+            <span>4</span>
+            <img src="https://osoq.com/clipart-images/medical-clipart/cute-nurse-character-design-cartoon-illustration-image.png" alt="">
+            <h3>Our Experts at your door step !</h3>
+        </div>
+
+        <div class="box1">
+            <span>5</span>
+            <img src="https://cdn-icons-png.flaticon.com/512/7667/7667708.png" alt="">
+            <h3>Explore Natural Healing</h3>
+        </div>
+
+        <div class="box1">
+            <span>6</span>
+            <img src="https://cdn-icons-png.flaticon.com/512/1183/1183179.png" alt="">
+            <h3>Find Services Near You</h3>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- handwash section ends -->
+
+<!-- spread section starts  -->
+
+<section class="spread1" id="spread1">
+
+    <h1 class="heading1">how Covid-19 <span>spreads</span> over the world</h1>
+
+    <div class="image1"></div>
+
+</section>
+
+<!-- spread section ends -->
+
+<!-- footer section starts  -->
+
+<section class="footer1">
+
+    <div class="box-container1">
+
+        <div class="box1">
+            <h3>about us</h3>
+            <p>we the team of five developed a healthcare chatbot for Virtusa Jatayu.</p>
+        </div>
+
+        <div class="box1">
+            <h3>locations</h3>
+            <a href="#">Chennai</a>
+            <a href="#">Coimbatore</a>
+            <a href="#">Erode</a>
+            <a href="#">Bangalore</a>
+            <a href="#">Mumbai</a>
+            <a href="#">Delhi</a>
+<!--            <a href="#">spain</a>-->
+        </div>
+
+        <div class="box1">
+            <h3>quick links</h3>
+            <a href="#">Our Experts</a>
+            <a href="#">Quick Tips</a>
+            <a href="#">Why Choose us? </a>
+            <a href="#">Our Services</a>
+            <a href="#">Find Us</a>
+<!--            <a href="#">spread</a>-->
+        </div>
+
+        <div class="box1">
+            <h3>contact info</h3>
+            <p> <i class="fas fa-phone"></i> +123-456-7890. </p>
+            <p> <i class="fas fa-envelope"></i> heathtalkie@gmail.com </p>
+            <p> <i class="fas fa-map-marker-alt"></i> Chennai, india - 600077. </p>
+            <div class="share1">
+                <a href="#" class="fab fa-youtube"></a>
+                <a href="#" class="fab fa-facebook-f"></a>
+                <a href="#" class="fab fa-twitter"></a>
+                <a href="#" class="fab fa-instagram"></a>
+            </div>
+        </div>
+
+    </div>
+
+<!--    <h1 class="credit1"> created by <a href="#"> mr. web designer </a> all rights reserved! </h1>-->
+
+</section>
+<!-- footer section ends -->
+
+<!-- scroll top  -->
+
+<a href="#home1" class="scroll-top1">
+    <img src="C:\Users\Nivedhitha\Downloads\Red Covid Website\Images Red Covid\images\scroll-img.png" alt="">
+</a>
+
+
+
+<!-- jquery cdn link  -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+<!-- custom js file link  -->
+<!--<script src="C:\Users\Nivedhitha\Downloads\Red Covid Website\covid website\script.js"></script>-->
+
+
+</body>
+</html>

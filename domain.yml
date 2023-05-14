@@ -1,0 +1,637 @@
+version: "2.0"
+
+intents:
+  - greet
+  - goodbye
+  - h_greet
+  - affirm
+  - deny
+  - joke
+  - tell_name
+  - out_of_scope
+  - family
+  - positive
+  - negative
+  - service
+  - feedback
+  - mainmenu_appointment
+  - mainmenu_pharmacy
+  - submenu_med_products
+  - submenu_med_drug
+  - mainmenu_emergency_assitance
+  - mainmenu_donation
+  - mainmenu_remedies
+  - mainmenu_locateus
+  - mainmenu_inpatientassistance
+  - submenu_general_consultant
+  - submenu_pediatrician
+  - submenu_specialists
+  - submenu_menstrual
+  - submenu_throat
+  - submenu_heat
+  - submenu_indigestion
+  - sub_sub_pain
+  - sub_sub_irregular
+  - pain_other
+  - irregular_other
+  - sub_sub_throat
+  - sub_sub_cold
+  - throat_other
+  - cold_other
+  - heat_other
+  - indigestion_other
+  - personal_care
+  - Health_and_care
+  - Ayurvedic
+  - Diabetic_Needs
+  - Baby_Needs
+  - Otc_and_Health_Needs
+#  - ambulance
+  - prescription
+  - vaccination_time
+  - vaccination_chart
+  - submenu_vaccination
+  - submenu_boy
+  - submenu_girl
+  - mainmenu_explore_more
+  - call_nurse
+  - canteen_metaverse
+  - emergency_ride
+  - care_ride
+  - mainmenu_our_services
+  - virtual_consultation
+  - blood_donation
+  - organ_donation
+  - charity
+  - submenu_donate
+  - submenu_can_i_donate
+  - submenu_check_status
+  - job
+  - psycology
+  - insurance
+  - ride
+  - jobapp
+  - psyapp
+  - insuranceapp
+  - general
+#  - pedia
+  - candonate
+  - check
+#  - organ
+  - pain
+  - irregular
+  - throat
+  - cold
+  - heat
+  - thanks
+  - good_service
+  - bad_service
+  - appoint_cancel
+  - appoint_reschedule
+  - hub
+  - token
+  - hlifeline
+  - submenu_hindigestion
+  - hindigestion_other
+  - scanreport
+  - pregnancykit
+#  - prod
+
+responses:
+  utter_pregnancykit:
+    - text: "Looks like, its a personal product, check out below"
+      buttons:
+        - title: "<a href='https://www.medplusmart.com/categories/personal-care_10102' target='_blank'><p style='color:black;'>Personal Care</p></a>"
+          payload: "/thanks"
+          parse_data: true
+  utter_scanreport:
+    - text: "Well, we try our level best to deliver you soon, you can check out your status here !\n<a href='https://framevr.io/health-talkie#scan-report' target='_blank'><img src='https://i.ibb.co/Zd6MmWm/Screenshot-2023-05-09-175632.png' style='display: block; margin: auto; vertical-align: middle; width:200px ; height:180px;'></a>"
+  utter_hlifeline:
+    - text: "hamaare lifailinai maltee speshalitee aspataal mein vishvasaneey doktar hain jo mareejon ke svaasthy ka khyaal rakhate hain. ham apanee sevaon ke lie jaane jaate hain aur isalie hamen garv hai ki lifailinai maltee speshalitee aspataal shahar ke sarvashreshth aspataalon mein se ek hai."
+  utter_submenu_hindigestion:
+    - text: "agar aap paachan tantr mein samasya se peedit hain, to aap adarak ka upayog kar sakate hain. adarak mein enteeokseedent aur enteeimphlemetree gun hote hain jo paachan tantr ko svasth rakhane mein madad karate hain. aap ek chhote tukade adarak ko ghee ke saath bhoonakar kha sakate hain."
+      buttons:
+        - title: "अन्य संभव उपचार"
+          payload: "/hindigestion_other"
+        - title: "उपचार के लिए धन्यवाद!!"
+          payload: "/thanks"
+  utter_hindigestion_other:
+    - text: "agar aap paachan tantr se judee samasyaon se peedit hain, to aap saumph ka upayog kar sakate hain. saumph mein enteeokseedent aur enteeimphlemetree gun hote hain jo paachan tantr ko svasth rakhane mein madad karate hain. aap ek gilaas garam paanee mein saumph daalakar paanch minat se das minat ke lie bhigo deejie. phir us paanee ko chhaanakar peejie."
+      buttons:
+        - title: "<a href='https://landbot.online/v3/H-1547742-GT9DQ8ABDYWP9HJE/index.html'><p style='color:black;'>विशेषज्ञ सलाह!</p></a>"
+          payload: "indigestion"
+          parse_data: true
+  utter_token:
+    - text: "Not too close, not too far, click here for instant update!\n<a href='https://framevr.io/health-talkie#token-number' target='_blank'><img src='https://i.ibb.co/M94d93Y/metaverse-token.jpg' style='display: block; margin: auto; vertical-align: middle; width:200px ; height:180px;'></a>"
+  utter_hub:
+    - text: "Well, let me pave the way for u there, just tap the below button, and you are there !\n<a href='https://framevr.io/health-talkie#patient-monitoring' target='_blank'><img src='https://i.ibb.co/VtJTxWY/image-1.png' style='display: block; margin: auto; vertical-align: middle; width:200px ; height:180px;'></a>"
+  utter_appoint_cancel:
+    - text: "I apologize to hear that you wish to cancel your appointment.\n You can find the link to cancel your appointment in the Confirmation Mail that was sent to you previously."
+  utter_appoint_reschedule:
+    - text: "I apologize to hear that you wish to reschedule your appointment.\n You can find the link to reschedule your appointment in the Confirmation Mail that was sent to you previously."
+  utter_lifeline:
+    - text: "Lifeline Multispeciality, a state-of-the-art hospital equipped with the latest medical technology and staffed by highly skilled healthcare professionals, is dedicated to providing exceptional care to patients from all walks of life."
+
+  utter_speciality:
+#    - text: "We extend our boundaries 360 degrees, check us at https://www.apollohospitals.com/corporate/company-overview/the-apollo-story/milestones/medical/"
+    - text: "We extend our boundaries 360 degrees, check us at <a href='https://www.apollohospitals.com/corporate/company-overview/the-apollo-story/milestones/medical/'target='_blank'><u>https://www.apollohospitals.com/corporate/company-overview/the-apollo-story/milestones/medical/</u></a>"
+  utter_hospital_technology:
+    - text: "We expand our services with advance technology, take a look at <a href='https://www.apollohospitals.com/corporate/company-overview/the-apollo-story/milestones/technology/'target='_blank'><u>https://www.apollohospitals.com/corporate/company-overview/the-apollo-story/milestones/technology/</u></a>"
+  utter_about_healthtalkie:
+    - text: "I am an AI powered chatbot to assist you in healthcare, just within clicks with minimal intervention of our hospital staffs"
+    - text: " I am a healthcare assistive chatbot, developed for the Life line hospitals, what can I do for you?"
+  utter_contd:
+    - text: "Is there anything else I can help you with? (yes/no)"
+  utter_mainmenu:
+    - text: "Check out our services !"
+      buttons:
+#        - title: "<img src='https://cdn3d.iconscout.com/3d/premium/thumb/online-doctor-consultation-4619991-3833045.png?f=webp' width='89' height='100'>\n Consult Doctors"
+#          payload: "/mainmenu_appointment"
+        - title: "<img src='https://cdn3d.iconscout.com/3d/premium/thumb/online-doctor-consultation-4619991-3833045.png?f=webp' width='89' height='100' title='Consult Doctors'>"
+          payload: "/mainmenu_appointment"
+#        - title: "<img src='https://cdn3d.iconscout.com/3d/premium/thumb/pharmacy-store-5659108-4713624.png' width='89' height='100'>\n Pharmacy"
+        - title: "<img src='https://cdn3d.iconscout.com/3d/premium/thumb/pharmacy-store-5659108-4713624.png' width='89' height='100' title='Pharmacy'>"
+          payload: "/mainmenu_pharmacy"
+        - title: "<img src='https://www.suvidhamultispecialityhospital.in/assets/images/dd.png' width='89' height='100' title= 'Our Services'>"
+          payload: "/mainmenu_our_services"
+        - title: "<img src='https://cdn-icons-png.flaticon.com/512/1806/1806269.png' width='89' height='100' title= 'Explore More'>"
+          payload: "/mainmenu_explore_more"
+#
+
+  utter_mainmenu_our_services:
+    - text: "Choose our service"
+      buttons:
+        - title: "Ambulance"
+          payload: "/mainmenu_emergency_assitance"
+        - title: "Donation"
+          payload: "/mainmenu_donation"
+        - title: "Virtual Consultation"
+          payload: "/virtual_consultation"
+
+  utter_job:
+    - text: "Apply for the hospital job by filling out the below form!"
+      buttons:
+        - title: "<a href='https://form.jotform.com/seshavidhya/medical-staff-application-form' target='_blank'> <p style='color:black;'>Fill Out the Form</p></a>"
+          #- title: "<a href='#' onclick=\"var popup = window.open('https://form.jotform.com/seshavidhya/medical-staff-application-form', 'popUpWindow', 'height=400,width=415,resizable=no,scrollbars=no,toolbar=no,menubar=no');popup.moveTo(600,330);\"><p style='color:black;'>Fill out Form</p></a>"
+          #- title: "<a href='https://form.jotform.com/seshavidhya/medical-staff-application-form'><p style='color:black;'>Fill out Form</p></a>"
+          payload: "/jobapp"
+          parse_data: true
+  utter_psycology:
+    - text: "Complete the psychology form to receive personalized care!"
+      buttons:
+        - title: "<a href='https://form.jotform.com/seshavidhya/mental-health-questionnaire' target='_blank'> <p style='color:black;'>Fill Out the Form</p></a>"
+          #- title: "<a href='#' onclick=\"var popup = window.open('https://form.jotform.com/seshavidhya/mental-health-questionnaire', 'popUpWindow', 'height=400,width=415,resizable=no,scrollbars=no,toolbar=no,menubar=no');popup.moveTo(600,330);\"><p style='color:black;'>Fill out Form</p></a>"
+          #- title: "<a href='https://form.jotform.com/seshavidhya/mental-health-questionnaire'><p style='color:black;'>Fill out Form</p></a>"
+          payload: "/psyapp"
+          parse_data: true
+  utter_insurance:
+    - text: "Kindly fill out the form to initiate your insurance claim process!"
+      buttons:
+        - title: "<a href='https://form.jotform.com/231221907179455' target='_blank'> <p style='color:black;'>Fill Out the Form</p></a>"
+          #- title: "<a href='#' onclick=\"var popup = window.open('https://form.jotform.com/231221907179455', 'popUpWindow', 'height=400,width=415,resizable=no,scrollbars=no,toolbar=no,menubar=no');popup.moveTo(600,330);\"><p style='color:black;'>Fill out Form</p></a>"
+          #- title: "<a href='https://form.jotform.com/231221907179455'><p style='color:black;'>Fill out Form</p></a>"
+          payload: "/insuranceapp"
+          parse_data: true
+  utter_mainmenu_donation:
+    - text: "Thats a great initiative, whats' it?"
+      buttons:
+        - title: "Blood Donation"
+          payload: "/blood_donation"
+        - title: "Organ Donation"
+          payload: "/organ_donation"
+        - title: " Charity "
+          payload: "/charity"
+  utter_organ_donation:
+    - text: "A second chance is in your hands.\n Fill  out the below form, we shall get in touch !"
+      buttons:
+#        - title: "<a href='#' onclick=\"var popup = window.open('https://form.jotform.com/231171725147452', 'popUpWindow', 'height=400,width=415,resizable=no,scrollbars=no,toolbar=no,menubar=no');popup.moveTo(600,330);\"><p style='color:black;'>Fill out Form</p></a>"
+        - title: "<a href='https://form.jotform.com/231171725147452' target='_blank'><p style='color:black;'>Fill Out the Form</p></a>"
+          payload: "/thanks"
+          parse_data: true
+
+  utter_charity:
+    - text: "Join your hands with us to save lives ! \n Donate us here ! <img src='https://i.ibb.co/bHvdmjZ/qr-code-barcode.jpg' width='89' height='100'>"
+
+
+
+  utter_blood_donation:
+    - text: "Check out from below !"
+      buttons:
+        - title: "Donate"
+          payload: "/submenu_donate"
+        - title: "Who can donate? "
+          payload: "/submenu_can_i_donate"
+        - title: "Check | Request Blood"
+          payload: "/submenu_check_status"
+
+  utter_submenu_donate:
+    - text: " Donate Now!"
+      buttons:
+        - title: "<a href='http://localhost:8000/blood_form_trail1.html' target='_blank'><p style='color:black;'>Fill Out the Form</p></a>"
+          payload: "/thanks"
+          parse_data: true
+  utter_submenu_check_status:
+    - text: "Currently we are facing high demand issue!\nCheck out an alternative"
+      buttons:
+        - title: "<a href='https://www.eraktkosh.in/BLDAHIMS/bloodbank/stockAvailability.cnt' target='_blank'><p style='color:black;'>Govt Blood Bank</p></a>"
+          payload: "/check"
+          parse_data: true
+  utter_submenu_can_i_donate:
+    - text: "Why not check the below!"
+      buttons:
+        - title: "<img src='https://i.ibb.co/bH9BHn9/donate-img-host.png' onclick=\"var popup=window.open('http://localhost:8000/blood_check.html','popup','width=415,height=400,scrollbars=no');popup.moveTo(600,330);\">"
+#        - title: "<img src='https://i.ibb.co/bH9BHn9/donate-img-host.png' onclick=\"var popup=window.open('file:///C:/Users/Nivedhitha/OneDrive/Desktop/website/popup_final.html','popup','width=415,height=400,scrollbars=no');popup.moveTo(600,330);\">"
+          payload: "/candonate"
+          parse_data: true
+  utter_mainmenu_appointment:
+    - text: "Choose the area of expertise for the doctor you'd like to consult"
+      buttons:
+        - title: "General Consultant"
+          payload: "/submenu_general_consultant"
+        - title: "Pediatrician"
+          payload: "/submenu_pediatrician"
+        - title: "Domain Specialist Doctors"
+          payload: "/submenu_specialists"
+  utter_submenu_general_consultant:
+    - text: "Thanks for choosing our general consultation services!\nReserve your slot to consult with our medical experts!"
+#    - text: "Reserve your slot to consult with our medical experts!"
+      buttons:
+        - title: "<a href='https://www.clipartmax.com/png/full/232-2327686_common-cold-royalty-free-clip-art-have-a-cold-cartoon.png'></a>"
+        - title: "<a href='https://png.pngtree.com/png-clipart/20221017/original/pngtree-kid-helping-injured-friend-to-walk-anak-membantu-teman-terluka-berjalan-png-image_8699108.png'></a>"
+        - title: "<a href='https://landbot.online/v3/H-1547742-GT9DQ8ABDYWP9HJE/index.html' target='_blank'><p style='color:black;'>Pre-Book my slots </p></a>"
+          payload: "/general"
+          parse_data: true
+  utter_submenu_pediatrician:
+    - text: "How can we assist you with our pediatrician services?\nReserve your slot to consult with our medical experts!"
+      buttons:
+        - title: "Vaccination"
+          payload: "/submenu_vaccination"
+        - title: "<a href='https://landbot.online/v3/H-1543118-W1EXRM5LF2MPQS9D/index.html' target='_blank'> <p style='color:black;'>Consult Pediatrician </p></a>"
+          payload: "/thanks"
+          parse_data: true
+  utter_submenu_vaccination:
+    - text: "Choose from below"
+      buttons:
+        - title: "Vaccination Chart"
+          payload: "/vaccination_chart"
+        - title: "Vaccination Timing"
+          payload: "/vaccination_time"
+  utter_vaccination_chart:
+    - text: "<a href='https://immunizebc.ca/calendar/schedule' target='_blank'><img src='https://i.ibb.co/VgKL9vy/vaccine-j.png' style='display: block; margin: auto; vertical-align: middle; width:200px ; height:180px;'></a>"
+  utter_vaccination_time:
+    - text:  "We are available in the Morning from 9 AM to 11 AM and Evening from 5 PM to 6 PM"
+  utter_submenu_specialists:
+    - text: "Thanks for your trust in us !\nChoose your gender"
+#    - text: "Choose your gender"
+      buttons:
+        - title: "Boy"
+          payload: "/submenu_boy"
+        - title: "Girl"
+          payload: "/submenu_girl"
+  utter_submenu_boy1:
+    - text: "Click on body part that you need help, to connect with the right specialist :)"
+      #image: "<iframe width='220' height = '215' src='https://nivedhitha-dp.github.io/health_talkie_specialists/'></iframe>"
+  utter_submenu_boy2:
+    - text: "<iframe width='220' height = '300' src='http://localhost:8000/malefinal.html'></iframe>"
+  utter_submenu_girl1:
+    - text: "Click on body part that you need help, to connect with the right specialist :)"
+    #\n<iframe width='220' height = '215' src='https://nivedhitha-dp.github.io/health_talkie_specialists/'></iframe>"
+  utter_submenu_girl2:
+    - text: "<iframe width='220' height = '300' src='http://localhost:8000/girl%20map.html'></iframe>"
+
+  utter_mainmenu_pharmacy:
+    - text: "What do you want to choose?"
+      buttons:
+#        - title: "<img src='https://cdn-icons-png.flaticon.com/512/4497/4497819.png' width='90' height='100' title ='Medical Drugs'>"
+        - title: "<img src='https://cdn-icons-png.flaticon.com/512/4497/4497819.png' width='89' height='100' title='Medical Drugs'>"
+          payload: "/submenu_med_drug"
+#        - title: "<img src='https://cdni.iconscout.com/illustration/premium/thumb/medical-equipment-5226989-4360592.png'width='90' height='100' title='Med Products'>"
+        - title: "<img src='https://cdni.iconscout.com/illustration/premium/thumb/medical-equipment-5226989-4360592.png'width='89' height='100' title='Med Products'>"
+          payload: "/submenu_med_products"
+  utter_submenu_med_drug:
+    - text: "Welcome to our HealthMed\n Your Medicines at Your Doorstep !"
+      buttons:
+        - title: "<img src='https://i.ibb.co/kMrq737/image-1.png'width='150' height='100'>"
+          payload: "/prescription"
+  utter_submenu_med_products:
+    - text: "Glad to assist you in pharmacy order along with medplus"
+      buttons:
+        - title: "<a href='https://www.medplusmart.com/categories/personal-care_10102' target='_blank'><p style='color:black;'>Personal Care</p></a>"
+          payload: "/thanks"
+          parse_data: true
+        - title: "<a href='https://www.medplusmart.com/categories/health-n-nutrition_10103' target='_blank'><p style='color:black;'>Health and Nutrition</p></a>"
+          payload: "/thanks"
+          parse_data: true
+        - title: "<a href='https://www.medplusmart.com/categories/ayurvedic_10109' target='_blank'><p style='color:black;'>Ayurvedic</p></a>"
+          payload: "/thanks"
+          parse_data: true
+        - title: "<a href='https://www.medplusmart.com/categories/diabetic-needs_10108' target='_blank'><p style='color:black;'>Diabetic Needs</p></a>"
+          payload: "/thanks"
+          parse_data: true
+        - title: "<a href='https://www.medplusmart.com/categories/baby-needs_10104' target='_blank'><p style='color:black;'>Baby Needs</p></a>"
+          payload: "/thanks"
+          parse_data: true
+        - title: "<a href='https://www.medplusmart.com/categories/otc-n-health-needs_10106' target='_blank'><p style='color:black;'>Otc and Health Needs</p></a>"
+          payload: "/thanks"
+          parse_data: true
+
+
+
+  utter_mainmenu_explore_more:
+    - text: "Choose your purpose"
+      buttons:
+        - title: "Natural Remedies"
+          payload: "/mainmenu_remedies"
+        - title: "Inpatient Service"
+          payload: "/mainmenu_inpatientassistance"
+        - title: "Locate Us on Map"
+          payload: "/mainmenu_locateus"
+
+  utter_mainmenu_locateus:
+    - text: "Check out our branches to navigate quick"
+      buttons:
+        - title: "<a href='https://shorturl.at/ahiE2' target='_blank'><p style='color:black;'>Locate us Here</p></a>"
+          payload: "/thanks"
+          parse_data: true
+  utter_mainmenu_inpatientassistance:
+    - text: "Connect to our Live Hospital here"
+      buttons:
+        - title: "Call Nurse"
+          payload: "/call_nurse"
+        - title: "Canteen"
+          payload: "/canteen_metaverse"
+  utter_call_nurse:
+    - text: "Head Nurse Contact Details:\n <b>044-23456878</b> \n or \n <b>044-23456812</b>"
+  utter_canteen_metaverse:
+    - text: "Visit our virtual canteen: <a href='https://framevr.io/health-talkie#canteen'target='_blank' style='color: blue'><u>https://framevr.io/health-talkie#canteen</u></a>"
+  utter_mainmenu_remedies:
+    - text: "Select your area of concern & unlock the home remedies for relief and healing!"
+      buttons:
+        - title: "Menstrual Issues"
+          payload: "/submenu_menstrual"
+        - title: "Throat infection"
+          payload: "/submenu_throat"
+        - title: "Heat Sickness"
+          payload: "/submenu_heat"
+        - title: "Indigestion"
+          payload: "/submenu_indigestion"
+  utter_submenu_menstrual:
+    - text: "Choose the one that best suits you!"
+      buttons:
+        - title: "Menstrual Pain"
+          payload: "/sub_sub_pain"
+        - title: "Menstrual Irregularity"
+          payload: "/sub_sub_irregular"
+  utter_sub_sub_pain:
+     - text: "Would you like to give this a try? \n \n Try out a simple <b>Neem Mixture</b>-> Boil Fresh <b>Neem leaves</b> + <b>Turmeric</b> in water = [Paste Texture].\n I hope this will work for you.."
+       buttons:
+         - title: "Try an alternative"
+           payload: "/pain_other"
+
+  utter_sub_sub_irregular:
+    - text: "Would you like to give this a try?\n\n Go for trying it out this mixture -> <b>sesame seeds + jaggery.</b>\n I hope this will work for you.."
+      buttons:
+        - title: "Try an alternative"
+          payload: "/irregular_other"
+        - title: "Thanks for the input!!"
+          payload: "/thanks"
+
+  utter_pain_other:
+    - text: "Discover the natural remedies below!!\n1. Go for Diluting the <b>essential oils(carrier oil)</b> -> massage the mixture onto your lower abdomen.\n2. Eat a <b>ripe banana </b>or blend it into a smoothie.\n Hoping these home remedies bring you relief."
+      buttons:
+        - title: "<a href='https://landbot.online/v3/H-1583918-HO9V6RTUXRI9KB0O/index.html' target='_blank'><p style='color:black;'>If not Visit our experts!</p></a>"
+          payload: "/thanks"
+          parse_data: true
+  utter_irregular_other:
+    - text: "Discover the natural remedies below!!\n1. Try out <b>fennel tea </b>-> boil fennel seeds in water.\n2. <b>Light to moderate exercise</b> -> Daily Routine. <iframe width='220' height='200' src='https://www.youtube.com/embed/btQiZOF6CjU' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share' allowfullscreen></iframe> \n Hoping these home remedies bring you relief."
+      buttons:
+        - title: "<a href='https://landbot.online/v3/H-1583918-HO9V6RTUXRI9KB0O/index.html' target='_blank'><p style='color:black;'>If not Visit our experts!</p></a>"
+          payload: "/thanks"
+          parse_data: true
+  utter_submenu_throat:
+    - text: "Choose the one that best suits you!"
+      buttons:
+        - title: "Sore Throat"
+          payload: "/sub_sub_throat"
+        - title: "Cold and flu"
+          payload: "/sub_sub_cold"
+  utter_sub_sub_throat:
+    - text: "How about trying with this?\n\n Try out this mixture.. 1 tablespoon of <b>honey</b> + 1 tablespoon of <b>lemon juice</b> in a cup of warm water.\n I hope this will work for you.. "
+      buttons:
+        - title: "Try an alternative"
+          payload: "/throat_other"
+        - title: "Thanks for the input!!"
+          payload: "/thanks"
+
+  utter_sub_sub_cold:
+    - text: "How about trying with this?\n\n Try this out.. Boil <b>ginger</b> in water for 10 minutes = Warm liquid.\n I hope this will work for you.."
+      buttons:
+        - title: "Try an alternative"
+          payload: "/cold_other"
+
+  utter_throat_other:
+    - text: "Discover the natural remedies below!!.\n1.  Boil 1 tablespoon of <b>marshmallow root</b> in a water for 10 minutes = Warm Liquid.\n2. 1 tablespoon of <b>apple cider vinegar</b> + 1 tablespoon of <b>honey</b> in a cup of warm water = Warm Liquid.\n Hoping these home remedies bring you relief."
+      buttons:
+        - title: "<a href='https://landbot.online/v3/H-1547742-GT9DQ8ABDYWP9HJE/index.html' target='_blank'><p style='color:black;'>If not Visit our experts!</p></a>"
+          payload: "/thanks"
+          parse_data: true
+  utter_cold_other:
+    - text: "Discover the natural remedies below!!\n1. Boil water + few drops of <b>essential oil (such as eucalyptus oil)</b> -> inhale the steam.\n2. Adding <b>garlic</b> to meals / taking garlic supplements = Boosting immune system\n Hoping these home remedies bring you relief."
+      buttons:
+        - title: "<a href=' https://landbot.online/v3/H-1547742-GT9DQ8ABDYWP9HJE/index.html' target='_blank'><p style='color:black;'>If not Visit our experts!</p></a>"
+          payload: "/thanks"
+          parse_data: true
+
+  utter_submenu_heat:
+    - text: "Would you like to give this a try?\n\n Adding <b>mint leaves</b> to drinks / chewing mint leaves = Minty drinks.\n I hope this will work for you.."
+      buttons:
+        - title: "Try an alternative"
+          payload: "/heat_other"
+  utter_heat_other:
+    - text: "Discover the natural remedies below!!\n1.  Drinking <b>coconut water</b> -> reduce body heat\n2. <b>Aloe vera juice</b> -> reduce body heat and inflammation.\n Hoping these home remedies bring you relief."
+      buttons:
+        - title: "<a href='https://landbot.online/v3/H-1547742-GT9DQ8ABDYWP9HJE/index.html' target='_blank'><p style='color:black;'>If not Visit our experts!</p></a>"
+          payload: "/thanks"
+          parse_data: true
+  utter_submenu_indigestion:
+    - text: "How about trying with this?\n\n Try out a <b>ginger tea</b> = boil sliced ginger + honey in water for 10 minutes.\n I hope this will work for you.."
+      buttons:
+        - title: "Try an alternative"
+          payload: "/indigestion_other"
+        - title: "Thanks for the input!!"
+          payload: "/thanks"
+  utter_indigestion_other:
+    - text: "Discover the natural remedies below!!\n1.  You can chew on a handful of <b>fennel seeds</b> after meals.\n2. You can drink <b>peppermint tea</b> or chew on peppermint leaves.\n Hoping these home remedies bring you relief."
+      buttons:
+        - title: "<a href='https://landbot.online/v3/H-1547742-GT9DQ8ABDYWP9HJE/index.html' target='_blank'><p style='color:black;'>If not Visit our experts!</p></a>"
+          payload: "/thanks"
+          parse_data: true
+
+  utter_mainmenu_emergency_assitance:
+    - text: "We understand your need !"
+      buttons:
+        - title: "Emergency Ride - Alert"
+          payload: "/emergency_ride"
+        - title: "Pre-Booked Care Ride"
+          payload: "/care_ride"
+
+  utter_emergency_ride:
+    - text: "Your Geo location shall be automatically sent. Raise Alert !!"
+      buttons:
+        - title: "Click Here to raise alert"
+          payload: "/ambulance"
+  utter_care_ride:
+    - text: "Fill out the form, we shall get back to you.."
+      buttons:
+        #- title: "<a href='#' onclick=\"var popup = window.open('https://form.jotform.com/231172270521444', 'popUpWindow', 'height=400,width=415,resizable=no,scrollbars=no,toolbar=no,menubar=no');popup.moveTo(600,330);\"><p style='color:black;'>Book your ride</p></a>"
+        - title: "<a href='https://form.jotform.com/231172270521444' target='_blank'><p style='color:black;'>Book your ride</p></a>"
+          payload: "/ride"
+  #          parse_data: True
+  utter_virtual_consultation:
+    - text: "Join us through metaverse to consult your doctor via: <a href='https://framevr.io/health-talkie'target='_blank' style='color: blue'><u>https://framevr.io/health-talkie</u></a>"
+
+
+
+
+  utter_service:
+    - text: " Are you satisfied with the service?"
+      buttons:
+        - title: "👍"
+          payload: "/good_service"
+#        - title: "👍"
+#          payload: "/ok_service"
+        - title: "👎"
+          payload: "/bad_service"
+
+
+
+
+#  Technical Education (AICTE) was set up in November 1945 as a national-level Apex Advisory Body to conduct a survey on the facilities available for technical education and to promote development in the country in a coordinated and integrated manner."
+  utter_greet:
+    - text: "Welcome ! How may I assist you today?"
+    - text: "Hi there! Are you looking for any medical information or assistance today?"
+    - text: "Welcome to our medical website chatbot! I'm your digital health assistant. What can I do for you?"
+    - text: "Welcome to our virtual health assistant! What brings you here today?"
+  utter_cheer_up:
+    - text: "Here is something to cheer you up:"
+  utter_did_that_help:
+    - text: "Did that help you?"
+  utter_happy:
+    - text: "Great, carry on!"
+  utter_goodbye:
+    - text: "Thank you,bye \n
+              Hope your queries are met, if not <b>contact us</b> using:  <a href='https://bit.ly/3vGkCni'target='_blank' style='color: blue'><u>https://bit.ly/3vGkCni</u></a>"
+    - text: "Indeed our pleasure helping you \n
+              Hope your queries are met if not <b>contact us</b> using:  <a href='https://bit.ly/3vGkCni!'target='_blank' style='color: blue'><u>https://bit.ly/3vGkCni!</u></a>"
+    - text: "Bye,have a great day !! \n
+              Hope your queries are met if not contact us using:  <a href='https://bit.ly/3vGkCni'target='_blank' style='color: blue'><u>https://bit.ly/3vGkCni</u></a>"
+    - text: "Our pleasure assiting you \n
+              Hope your queries are met if not <b>contact us</b> using:  <a href='https://bit.ly/3vGkCni!'target='_blank' style='color: blue'><u>https://bit.ly/3vGkCni!</u></a>"
+  utter_name:
+    - text: "I am an AI powered Heathcare chatbot !!"
+
+  utter_out_of_scope:
+    - text: Sorry Din't get that, kindly rephrase your statement.
+#  utter_family:
+#    - text: Hey, I am an AI powered A.I.C.T.E bot, I was created by A.I.C.T.E and I am 0 years old.
+  utter_positive:
+    - text: Hey, nice to hear that from you. I too am.
+  utter_negative:
+    - text: Hey, sorry to hear that, will get better soon.
+  utter_joke:
+    - text: "How do robots eat? , Answer: Haha !! with computer chips :)"
+    - text: "What do you call a sleeping bull? , Answer: Bull-dozer"
+    - text: "B never sweats, because its between AC  ( A B C.. )"
+
+
+  utter_h_greet:
+    - text: "Namaste, din kee shubh kaamana"
+    - text: "Namaskaar, AICTE mein aapaka svaagat hai"
+    - text: "Namaste, AICTE mein aapaka svaagat hai"
+
+
+
+
+actions:
+  - utter_mainmenu_appointment
+  - utter_mainmenu_pharmacy
+  - utter_submenu_med_products
+  - utter_submenu_med_drug
+  - utter_mainmenu_emergency_assitance
+  - utter_mainmenu_donation
+  - utter_mainmenu_remedies
+  - utter_mainmenu_locateus
+  - utter_mainmenu_inpatientassistance
+  - utter_submenu_general_consultant
+  - utter_submenu_pediatrician
+  - utter_submenu_specialists
+  - utter_submenu_menstrual
+  - utter_submenu_heat
+  - utter_submenu_throat
+  - utter_submenu_indigestion
+  - utter_sub_sub_pain
+  - utter_sub_sub_irregular
+  - utter_pain_other
+  - utter_irregular_other
+  - utter_sub_sub_throat
+  - utter_sub_sub_cold
+  - utter_throat_other
+  - utter_cold_other
+  - utter_heat_other
+  - utter_indigestion_other
+  - action_upload
+  - utter_h_greet
+  - utter_menu
+  - action_hello_world
+  - utter_contd
+  - utter_service
+  - utter_feedback
+  - action_save_conversation
+  - utter_submenu_details
+  - action_make_phone_call
+  - utter_submenu_vaccination
+  - utter_vaccination_time
+  - utter_vaccination_chart
+  - utter_submenu_boy1
+  - utter_submenu_boy2
+  - utter_submenu_girl1
+  - utter_submenu_girl2
+  - utter_mainmenu_explore_more
+  - utter_call_nurse
+  - utter_canteen_metaverse
+  - utter_emergency_ride
+  - utter_care_ride
+  - utter_mainmenu_our_services
+  - utter_virtual_consultation
+  - utter_blood_donation
+  - utter_organ_donation
+  - utter_charity
+  - utter_submenu_donate
+  - utter_submenu_can_i_donate
+  - utter_submenu_check_status
+  - utter_job
+  - utter_psycology
+  - utter_insurance
+  - utter_appoint_cancel
+  - utter-appoint_reschedule
+  - utter_hub
+  - utter_token
+  - utter_hlifeline
+  - utter_submenu_hindigestion
+  - utter_hindigestion_other
+  - utter_scanreport
+#  - utter_personal_care
+#  - utter_Health_and_care
+#  - utter_Ayurvedic
+#  - utter_Diabetic_Needs
+#  - utter_Baby_Needs
+#  - utter_Otc_and_Health_Needs
+
+
+
+
+
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true

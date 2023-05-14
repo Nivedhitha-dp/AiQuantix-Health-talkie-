@@ -1,0 +1,325 @@
+intent,user_input,entity_name,entity_value,action,bot_reply,,,,,,,,
+greet,hi,,,utter_mainmenu,Do you want to know anything from below?,,,,,,,,
+deny,no,,,utter_goodbye,Our pleasure assiting you ,,,,,,,,
+ Hope your queries are met if not leave a message here:  https://bit.ly/3vGkCni !,,,,,,,,,,,,,
+utter_service, Are you satisfied with the service?,,,,,,,,,,,,
+bad_service,/bad_service,,,utter_feedback,Thanks for your valuable feedback,,,,,,,,
+deny,no,,,utter_goodbye,Bye,have a great day !!,,,,,,,
+ Hope your queries are met if not leave a message here:  https://bit.ly/3vGkCni,,,,,,,,,,,,,
+utter_service, Are you satisfied with the service?,,,,,,,,,,,,
+good_service,/good_service,,,utter_feedback,Thanks for your valuable feedback,,,,,,,,
+deny,no,,,utter_goodbye,Bye,have a great day !!,,,,,,,
+ Hope your queries are met if not leave a message here:  https://bit.ly/3vGkCni,,,,,,,,,,,,,
+utter_service, Are you satisfied with the service?,,,,,,,,,,,,
+good_service,/good_service,,,utter_feedback,Thanks for your valuable feedback,,,,,,,,
+restart,/restart,,,greet,hi,,,utter_mainmenu,Do you want to know anything from below?,,,,
+deny,no,,,utter_goodbye,Bye,have a great day !!,,,,,,,
+ Hope your queries are met if not leave a message here:  https://bit.ly/3vGkCni,,,,,,,,,,,,,
+utter_service, Are you satisfied with the service?,,,,,,,,,,,,
+good_service,/good_service,,,utter_feedback,Thanks for your valuable feedback,,,,,,,,
+greet,hi,,,utter_mainmenu,Do you want to know anything from below?,,,,,,,,
+deny,no,,,utter_goodbye,Thank you,bye ,,,,,,,
+ Hope your queries are met if not leave a message here:  https://bit.ly/3vGkCni,,,,,,,,,,,,,
+utter_service, Are you satisfied with the service?,,,,,,,,,,,,
+ok_service,/ok_service,,,utter_feedback,Thanks for your valuable feedback,,,,,,,,
+greet,hi,,,utter_mainmenu,How may I help you?,,,,,,,,
+mainmenu_about,/mainmenu_about,,,utter_mainmenu_about,Know more about<b> AICTE </b> from the following,,,,,,,,
+need,/need,,,utter_need,<b>All India Council for Technical Education (AICTE) </b>was set up in <b>November 1945</b> as a national-level Apex Advisory Body to conduct a survey on the facilities available for technical education and to promote development in the country in a coordinated and integrated manner. ,,,,,,,,
+utter_contd,Would you like to explore more? (yes/no),,,,,,,,,,,,
+deny,no,,,utter_goodbye,Indeed our pleasure helping you ,,,,,,,,
+ Hope your queries are met if not <b>contact us</b> using:  <a href='https://bit.ly/3vGkCni!'>https://bit.ly/3vGkCni!</a>,,,,,,,,,,,,,
+utter_service, Are you satisfied with the service?,,,,,,,,,,,,
+ok_service,/ok_service,,,deny,no,,,utter_goodbye,Thank you,bye ,,,
+ Hope your queries are met, if not <b>contact us</b> using:  <a href='https://bit.ly/3vGkCni'target='_blank' style='color: blue'><u>https://bit.ly/3vGkCni</u></a>,,,,,,,,,,,,
+utter_service, Are you satisfied with the service?,,,,,,,,,,,,
+good_service,/good_service,,,greet,hi,,,utter_mainmenu,Do you want to know anything from below?,,,,
+mainmenu_about,/mainmenu_about,,,utter_mainmenu_about,Check the following for more info about AICTE,,,,,,,,
+need,/need,,,utter_need,All India Council for Technical Education <b>(AICTE)</b> was set up in <b>November 1945</b> as a national-level Apex Advisory Body to conduct a survey on the facilities available for <b>technical education</b> and to promote development in the country in a coordinated and integrated manner. ,,,,,,,,
+utter_contd,Would you like to explore more? (yes/no),,,,,,,,,,,,
+h_college,mahaviyalay,,,utter_h_college,AICTE dvara anumodit sabi mahaavidyaalay ke liye link dekhen https://facilities.aicte-india.org/dashboard/pages/dashboardaicte.php,,,,,,,,
+deny,no,,,utter_goodbye,Indeed our pleasure helping you ,,,,,,,,
+ Hope your queries are met if not <b>contact us</b> using:  <a href='https://bit.ly/3vGkCni!'target='_blank' style='color: blue'><u>https://bit.ly/3vGkCni!</u></a>,,,,,,,,,,,,,
+utter_service, Are you satisfied with the service?,,,,,,,,,,,,
+good_service,/good_service,,,greet,hi,,,utter_mainmenu,Do you want to know anything from below?,,,,
+mainmenu_about,/mainmenu_about,,,utter_mainmenu_about,Check the following for more info about AICTE,,,,,,,,
+need,/need,,,utter_need,All India Council for Technical Education <b>(AICTE)</b> was set up in <b>November 1945</b> as a national-level Apex Advisory Body to conduct a survey on the facilities available for <b>technical education</b> and to promote development in the country in a coordinated and integrated manner. ,,,,,,,,
+utter_contd,Would you like to explore more? (yes/no),,,,,,,,,,,,
+h_college,mahaviyalay,,,utter_h_college,AICTE dvara anumodit sabi mahaavidyaalay ke liye link dekhen https://facilities.aicte-india.org/dashboard/pages/dashboardaicte.php,,,,,,,,
+deny,no,,,utter_goodbye,Indeed our pleasure helping you ,,,,,,,,
+ Hope your queries are met if not <b>contact us</b> using:  <a href='https://bit.ly/3vGkCni!'target='_blank' style='color: blue'><u>https://bit.ly/3vGkCni!</u></a>,,,,,,,,,,,,,
+utter_service, Are you satisfied with the service?,,,,,,,,,,,,
+good_service,/good_service,,,deny,no,,,utter_goodbye,Thank you,bye ,,,
+ Hope your queries are met, if not <b>contact us</b> using:  <a href='https://bit.ly/3vGkCni'target='_blank' style='color: blue'><u>https://bit.ly/3vGkCni</u></a>,,,,,,,,,,,,
+utter_service, Are you satisfied with the service?,,,,,,,,,,,,
+good_service,/good_service,,,greet,hi,,,utter_mainmenu,Do you want to know anything from below?,,,,
+restart,/restart,,,deny,no,,,utter_goodbye,Our pleasure assiting you ,,,,
+ Hope your queries are met if not <b>contact us</b> using:  <a href='https://bit.ly/3vGkCni!'target='_blank' style='color: blue'><u>https://bit.ly/3vGkCni!</u></a>,,,,,,,,,,,,,
+utter_service, Are you satisfied with the service?,,,,,,,,,,,,
+bad_service,/bad_service,,,deny,no,,,utter_goodbye,Indeed our pleasure helping you ,,,,
+ Hope your queries are met if not <b>contact us</b> using:  <a href='https://bit.ly/3vGkCni!'target='_blank' style='color: blue'><u>https://bit.ly/3vGkCni!</u></a>,,,,,,,,,,,,,
+utter_service, Are you satisfied with the service?,,,,,,,,,,,,
+good_service,/good_service,,,tell_joke,joke,,,utter_joke,What do you call a sleeping bull? , Answer: Bull-dozer,,,
+deny,no,,,utter_goodbye,Bye,have a great day !! ,,,,,,,
+ Hope your queries are met if not contact us using:  <a href='https://bit.ly/3vGkCni'target='_blank' style='color: blue'><u>https://bit.ly/3vGkCni</u></a>,,,,,,,,,,,,,
+utter_service, Are you satisfied with the service?,,,,,,,,,,,,
+good_service,/good_service,,,restart,/restart,,,greet,hi,,,utter_mainmenu,Do you want to know anything from below?
+deny,no,,,utter_goodbye,Our pleasure assiting you ,,,,,,,,
+ Hope your queries are met if not <b>contact us</b> using:  <a href='https://bit.ly/3vGkCni!'target='_blank' style='color: blue'><u>https://bit.ly/3vGkCni!</u></a>,,,,,,,,,,,,,
+utter_service, Are you satisfied with the service?,,,,,,,,,,,,
+good_service,/good_service,,,nlu_fallback,namathey,,,utter_out_of_scope,Sorry Din't get that, kindly rephrase your statement.,,,
+h_greet,namastey,,,utter_h_greet,Namaste, AICTE mein aapaka svaagat hai,,,,,,,
+deny,no,,,utter_goodbye,Bye,have a great day !! ,,,,,,,
+ Hope your queries are met if not contact us using:  <a href='https://bit.ly/3vGkCni'target='_blank' style='color: blue'><u>https://bit.ly/3vGkCni</u></a>,,,,,,,,,,,,,
+utter_service, Are you satisfied with the service?,,,,,,,,,,,,
+good_service,/good_service,,,,,,,,,,,,
+deny,no,,,utter_goodbye,Our pleasure assiting you 
+ Hope your queries are met if not <b>contact us</b> using:  <a href='https://bit.ly/3vGkCni!'target='_blank' style='color: blue'><u>https://bit.ly/3vGkCni!</u></a>
+utter_service, Are you satisfied with the service?
+good_service,/good_service,,,h_greet,namastey,,,utter_h_greet,Namaste, AICTE mein aapaka svaagat hai
+deny,no,,,utter_goodbye,Indeed our pleasure helping you 
+ Hope your queries are met if not <b>contact us</b> using:  <a href='https://bit.ly/3vGkCni!'target='_blank' style='color: blue'><u>https://bit.ly/3vGkCni!</u></a>
+utter_service, Are you satisfied with the service?
+good_service,/good_service,,,greet,hi,,,utter_mainmenu,Do you want to know anything from below?
+mainmenu_features,/mainmenu_features,,,utter_mainmenu_features,Hope the following is useful
+courses,/courses,,,utter_courses,<b>AICTE</b> provides various <b>free courses</b> and <b>internship opportunities</b> on famous learning platforms.
+ Find them under quick links <b>(AICTE AI-language transalational tool)</b> or try using <a href='https://free.aicte-india.org/' target='_blank'style='color: blue'><u>https://free.aicte-india.org/</u></a> 
+ <br><b>Right click to view image in new tab.</b>
+utter_contd,Would you like to explore more? (yes/no)
+affirm,yes,,,utter_mainmenu,Do you want to know anything from below?
+mainmenu_about,/mainmenu_about,,,utter_mainmenu_about,Check the following for more info about AICTE
+college,/college,,,utter_college,Check out the link to find all <b>AICTE approved colleges</b> <a href='https://facilities.aicte-india.org/dashboard/pages/dashboardaicte.php' target='_blank'style='color: blue'><u>https://facilities.aicte-india.org/dashboard/pages/angulardashboard.php#!/approved</u></a> 
+ <br><b>Right click to view image in new tab.</b>
+utter_contd,Would you like to explore more? (yes/no)
+deny,no,,,utter_goodbye,Bye,have a great day !! 
+ Hope your queries are met if not contact us using:  <a href='https://bit.ly/3vGkCni'target='_blank' style='color: blue'><u>https://bit.ly/3vGkCni</u></a>
+utter_service, Are you satisfied with the service?
+good_service,/good_service,,,greet,hi,,,utter_mainmenu,Do you want to know anything from below?
+mainmenu_about,/mainmenu_about,,,utter_mainmenu_about,Check the following for more info about AICTE
+engg,/engg,,,utter_engg,All the <b>Engineering</b>, <b>MBA</b> and <b>Pharmacy colleges</b> are affiliated with the All India Council for Technical Education. While technical institutions are overlooked by the AICTE, the other universities and colleges fall under the UGC.
+ It offers 
+ <br><b>1. PARAKH</b> - Student learning assessment 
+ <br><b> 2. NEAT </b>- National Educational Alliance for Technology 
+ <br><b>3. Indian Innovation initiative </b>and so on to improve the standard of education in India 
+ <br><b>Right click to view image in new tab.</b>
+utter_contd,Would you like to explore more? (yes/no)
+affirm,yes,,,utter_mainmenu,Do you want to know anything from below?
+menu,/menu,,,utter_menu,Hey !! Choose the domain of query
+submenu_details,/submenu_details,,,utter_submenu_details,How could we help you?
+details_mandatory,/details_mandatory,,,utter_details_mandatory,Application only to be filled as New Institutions. 
+ <br><b>NOTE</b>: Aadhar and PAN details are mandatory for application.
+utter_contd,Would you like to explore more? (yes/no)
+affirm,yes,,,utter_mainmenu,Do you want to know anything from below?
+mainmenu_features,/mainmenu_features,,,utter_mainmenu_features,Hope the following is useful
+courses,/courses,,,utter_courses,<b>AICTE</b> provides various <b>free courses</b> and <b>internship opportunities</b> on famous learning platforms.
+ Find them under quick links <b>(AICTE AI-language transalational tool)</b> or try using <a href='https://free.aicte-india.org/' target='_blank'style='color: blue'><u>https://free.aicte-india.org/</u></a> 
+ <br><b>Right click to view image in new tab.</b>
+utter_contd,Would you like to explore more? (yes/no)
+affirm,yes,,,utter_mainmenu,Do you want to know anything from below?
+mainmenu_about,/mainmenu_about,,,utter_mainmenu_about,Check the following for more info about AICTE
+need,/need,,,utter_need,All India Council for Technical Education <b>(AICTE)</b> was set up in <b>November 1945</b> as a national-level Apex Advisory Body to conduct a survey on the facilities available for <b>technical education</b> and to promote development in the country in a coordinated and integrated manner. <iframe width='220' height='215' allowfullscreen src='https://www.youtube.com/embed/3n38eCVjIak?controls=1&mute=0'> </iframe>
+utter_contd,Would you like to explore more? (yes/no)
+deny,no,,,utter_goodbye,Thank you,bye 
+ Hope your queries are met, if not <b>contact us</b> using:  <a href='https://bit.ly/3vGkCni'target='_blank' style='color: blue'><u>https://bit.ly/3vGkCni</u></a>
+utter_service, Are you satisfied with the service?
+good_service,/good_service,,,greet,hi,,,utter_mainmenu,Do you want to know anything from below?
+mainmenu_about,/mainmenu_about,,,utter_mainmenu_about,Check the following for more info about AICTE
+engg,/engg,,,utter_engg,All the <b>Engineering</b>, <b>MBA</b> and <b>Pharmacy colleges</b> are affiliated with the All India Council for Technical Education. While technical institutions are overlooked by the AICTE, the other universities and colleges fall under the UGC.
+ It offers 
+ <br><b>1. PARAKH</b> - Student learning assessment 
+ <br><b> 2. NEAT </b>- National Educational Alliance for Technology 
+ <br><b>3. Indian Innovation initiative </b>and so on to improve the standard of education in India 
+ <br><b>Right click to view image in new tab.</b>
+utter_contd,Would you like to explore more? (yes/no)
+affirm,yes,,,utter_mainmenu,Do you want to know anything from below?
+menu,/menu,,,utter_menu,Hey !! Choose the domain of query
+submenu_details,/submenu_details,,,utter_submenu_details,How could we help you?
+details_mandatory,/details_mandatory,,,utter_details_mandatory,Application only to be filled as New Institutions. 
+ <br><b>NOTE</b>: Aadhar and PAN details are mandatory for application.
+utter_contd,Would you like to explore more? (yes/no)
+affirm,yes,,,utter_mainmenu,Do you want to know anything from below?
+mainmenu_features,/mainmenu_features,,,utter_mainmenu_features,Hope the following is useful
+courses,/courses,,,utter_courses,<b>AICTE</b> provides various <b>free courses</b> and <b>internship opportunities</b> on famous learning platforms.
+ Find them under quick links <b>(AICTE AI-language transalational tool)</b> or try using <a href='https://free.aicte-india.org/' target='_blank'style='color: blue'><u>https://free.aicte-india.org/</u></a> 
+ <br><b>Right click to view image in new tab.</b>
+utter_contd,Would you like to explore more? (yes/no)
+affirm,yes,,,utter_mainmenu,Do you want to know anything from below?
+mainmenu_about,/mainmenu_about,,,utter_mainmenu_about,Check the following for more info about AICTE
+need,/need,,,utter_need,All India Council for Technical Education <b>(AICTE)</b> was set up in <b>November 1945</b> as a national-level Apex Advisory Body to conduct a survey on the facilities available for <b>technical education</b> and to promote development in the country in a coordinated and integrated manner. <iframe width='220' height='215' allowfullscreen src='https://www.youtube.com/embed/3n38eCVjIak?controls=1&mute=0'> </iframe>
+utter_contd,Would you like to explore more? (yes/no)
+deny,no,,,utter_goodbye,Indeed our pleasure helping you 
+ Hope your queries are met if not <b>contact us</b> using:  <a href='https://bit.ly/3vGkCni!'target='_blank' style='color: blue'><u>https://bit.ly/3vGkCni!</u></a>
+utter_service, Are you satisfied with the service?
+good_service,/good_service,,,greet,hi,,,utter_mainmenu,Do you want to know anything from below?
+mainmenu_about,/mainmenu_about,,,utter_mainmenu_about,Check the following for more info about AICTE
+engg,/engg,,,utter_engg,All the <b>Engineering</b>, <b>MBA</b> and <b>Pharmacy colleges</b> are affiliated with the All India Council for Technical Education. While technical institutions are overlooked by the AICTE, the other universities and colleges fall under the UGC.
+ It offers 
+ <br><b>1. PARAKH</b> - Student learning assessment 
+ <br><b> 2. NEAT </b>- National Educational Alliance for Technology 
+ <br><b>3. Indian Innovation initiative </b>and so on to improve the standard of education in India 
+ <br><b>Right click to view image in new tab.</b>
+utter_contd,Would you like to explore more? (yes/no)
+affirm,yes,,,utter_mainmenu,Do you want to know anything from below?
+mainmenu_links,/mainmenu_links,,,utter_mainmenu_links,1. <b>User Manual</b> : <a href='https://www.aicte-india.org/downloads/AICTE_Help_Manual.pdf'target='_blank' style='color: blue'><u>https://www.aicte-india.org/downloads/AICTE_Help_Manual.pdf </u></a> 
+ 2. <b>Login</b> : <a href='https://bit.ly/3tTMMbX' target='_blank'style='color: blue'><u>https://bit.ly/3tTMMbX</u></a> 
+ 3. <b>Smart India Hackathon</b>: <a href='https://rb.gy/tdg2f3'target='_blank' style='color: blue'><u>https://rb.gy/tdg2f3</u></a> 
+ 4. <b>Free courses </b>: <a href='https://free.aicte-india.org/'target='_blank'style='color: blue'><u>https://free.aicte-india.org</u></a> 
+ 5. <b>Startup</b> : <a href='https://rb.gy/a1zgev'target='_blank'style='color: blue'><u>https://rb.gy/a1zgev</u></a> 
+ 6. <b>Centralised support system</b>: <a href='https://css.aicte-india.org/login'target='_blank'style='color: blue'><u>https://css.aicte-india.org/login</u></a> 
+ 7.<b> Swayam</b>: <a href='https://swayam.gov.in/' target='_blank'style='color: blue'><u>https://swayam.gov.in</u></a> 
+utter_contd,Would you like to explore more? (yes/no)
+deny,no,,,utter_goodbye,Our pleasure assiting you 
+ Hope your queries are met if not <b>contact us</b> using:  <a href='https://bit.ly/3vGkCni!'target='_blank' style='color: blue'><u>https://bit.ly/3vGkCni!</u></a>
+utter_service, Are you satisfied with the service?
+bad_service,/bad_service,,,greet,hi,,,utter_mainmenu,Do you want to know anything from below?
+mainmenu_about,/mainmenu_about,,,utter_mainmenu_about,Check the following for more info about AICTE
+location,/location,,,utter_location,Refer the link to know about the <b>locations</b> throughout India <a href='https://www.aicte-india.org/contact' target='_blank'style='color: blue'><u>https://www.aicte-india.org/contact</u></a> 
+ <br><b>Right click to view image in new tab.</b>
+utter_contd,Would you like to explore more? (yes/no)
+deny,no,,,utter_goodbye,Thank you,bye 
+ Hope your queries are met, if not <b>contact us</b> using:  <a href='https://bit.ly/3vGkCni'target='_blank' style='color: blue'><u>https://bit.ly/3vGkCni</u></a>
+utter_service, Are you satisfied with the service?
+good_service,/good_service,,,greet,hi,,,utter_mainmenu,Do you want to know anything from below?
+mainmenu_about,/mainmenu_about,,,utter_mainmenu_about,Check the following for more info about AICTE
+need,/need,,,utter_need,All India Council for Technical Education <b>(AICTE)</b> was set up in <b>November 1945</b> as a national-level Apex Advisory Body to conduct a survey on the facilities available for <b>technical education</b> and to promote development in the country in a coordinated and integrated manner. <iframe width='220' height='215' allowfullscreen src='https://www.youtube.com/embed/3n38eCVjIak?controls=1&mute=0'> </iframe>
+utter_contd,Would you like to explore more? (yes/no)
+affirm,yes,,,utter_mainmenu,Do you want to know anything from below?
+mainmenu_features,/mainmenu_features,,,utter_mainmenu_features,Hope the following is useful
+courses,/courses,,,utter_courses,<b>AICTE</b> provides various <b>free courses</b> and <b>internship opportunities</b> on famous learning platforms.
+ Find them under quick links <b>(AICTE AI-language transalational tool)</b> or try using <a href='https://free.aicte-india.org/' target='_blank'style='color: blue'><u>https://free.aicte-india.org/</u></a> 
+ <br><b>Right click to view image in new tab.</b>
+utter_contd,Would you like to explore more? (yes/no)
+affirm,yes,,,utter_mainmenu,Do you want to know anything from below?
+payment,issues,,,utter_payment,The update takes approx 48-72 hrs, if not, Click on '<b>View Transaction</b>' under Payment tab for the status. 
+ NOTE: Make sure, pop ups are enabled for AICTE website through browser. 
+ For more queries, Raise a Grievance via <b>Grievance form</b> available at this <a href='https://css.aicte-india.org/login'target='_blank' style='color: blue'><u>https://css.aicte-india.org/login</u></a> 
+utter_contd,Would you like to explore more? (yes/no)
+play_video,play video,,,utter_contd,Would you like to explore more? (yes/no)
+affirm,yes,,,utter_mainmenu,Do you want to know anything from below?
+mainmenu_links,direct links,,,utter_mainmenu_links,1. <b>User Manual</b> : <a href='https://www.aicte-india.org/downloads/AICTE_Help_Manual.pdf'target='_blank' style='color: blue'><u>https://www.aicte-india.org/downloads/AICTE_Help_Manual.pdf </u></a> 
+ 2. <b>Login</b> : <a href='https://bit.ly/3tTMMbX' target='_blank'style='color: blue'><u>https://bit.ly/3tTMMbX</u></a> 
+ 3. <b>Smart India Hackathon</b>: <a href='https://rb.gy/tdg2f3'target='_blank' style='color: blue'><u>https://rb.gy/tdg2f3</u></a> 
+ 4. <b>Free courses </b>: <a href='https://free.aicte-india.org/'target='_blank'style='color: blue'><u>https://free.aicte-india.org</u></a> 
+ 5. <b>Startup</b> : <a href='https://rb.gy/a1zgev'target='_blank'style='color: blue'><u>https://rb.gy/a1zgev</u></a> 
+ 6. <b>Centralised support system</b>: <a href='https://css.aicte-india.org/login'target='_blank'style='color: blue'><u>https://css.aicte-india.org/login</u></a> 
+ 7.<b> Swayam</b>: <a href='https://swayam.gov.in/' target='_blank'style='color: blue'><u>https://swayam.gov.in</u></a> 
+utter_contd,Would you like to explore more? (yes/no)
+h_college,Mahavidyalaya,,,utter_h_college,AICTE dvara anumodit sabi mahaavidyaalay ke liye link dekhen https://facilities.aicte-india.org/dashboard/pages/dashboardaicte.php
+h_college,Mahavidyalaya,,,utter_h_college,AICTE dvara anumodit sabi mahaavidyaalay ke liye link dekhen https://facilities.aicte-india.org/dashboard/pages/dashboardaicte.php
+tell_joke,joke,,,utter_joke,B never sweats, because its between AC  ( A B C.. )
+nlu_fallback,i want chocolate,,,utter_out_of_scope,Sorry Din't get that, kindly rephrase your statement.
+deny,im sorry,,,utter_goodbye,Indeed our pleasure helping you 
+ Hope your queries are met if not <b>contact us</b> using:  <a href='https://bit.ly/3vGkCni!'target='_blank' style='color: blue'><u>https://bit.ly/3vGkCni!</u></a>
+utter_service, Are you satisfied with the service?
+good_service,/good_service,,,greet,hi,,,utter_mainmenu,Do you want to know anything from below?
+mainmenu_about,/mainmenu_about,,,utter_mainmenu_about,Check the following for more info about AICTE
+need,/need,,,utter_need,All India Council for Technical Education <b>(AICTE)</b> was set up in <b>November 1945</b> as a national-level Apex Advisory Body to conduct a survey on the facilities available for <b>technical education</b> and to promote development in the country in a coordinated and integrated manner. <iframe width='220' height='215' allowfullscreen src='https://www.youtube.com/embed/3n38eCVjIak?controls=1&mute=0'> </iframe>
+utter_contd,Would you like to explore more? (yes/no)
+affirm,yes,,,utter_mainmenu,Do you want to know anything from below?
+mainmenu_features,/mainmenu_features,,,utter_mainmenu_features,Hope the following is useful
+courses,/courses,,,utter_courses,<b>AICTE</b> provides various <b>free courses</b> and <b>internship opportunities</b> on famous learning platforms.
+ Find them under quick links <b>(AICTE AI-language transalational tool)</b> or try using <a href='https://free.aicte-india.org/' target='_blank'style='color: blue'><u>https://free.aicte-india.org/</u></a> 
+ <br><b>Right click to view image in new tab.</b>
+utter_contd,Would you like to explore more? (yes/no)
+affirm,yes,,,utter_mainmenu,Do you want to know anything from below?
+payment,issues,,,utter_payment,The update takes approx 48-72 hrs, if not, Click on '<b>View Transaction</b>' under Payment tab for the status. 
+ NOTE: Make sure, pop ups are enabled for AICTE website through browser. 
+ For more queries, Raise a Grievance via <b>Grievance form</b> available at this <a href='https://css.aicte-india.org/login'target='_blank' style='color: blue'><u>https://css.aicte-india.org/login</u></a> 
+utter_contd,Would you like to explore more? (yes/no)
+play_video,play video,,,utter_contd,Would you like to explore more? (yes/no)
+affirm,yes,,,utter_mainmenu,Do you want to know anything from below?
+mainmenu_links,direct links,,,utter_mainmenu_links,1. <b>User Manual</b> : <a href='https://www.aicte-india.org/downloads/AICTE_Help_Manual.pdf'target='_blank' style='color: blue'><u>https://www.aicte-india.org/downloads/AICTE_Help_Manual.pdf </u></a> 
+ 2. <b>Login</b> : <a href='https://bit.ly/3tTMMbX' target='_blank'style='color: blue'><u>https://bit.ly/3tTMMbX</u></a> 
+ 3. <b>Smart India Hackathon</b>: <a href='https://rb.gy/tdg2f3'target='_blank' style='color: blue'><u>https://rb.gy/tdg2f3</u></a> 
+ 4. <b>Free courses </b>: <a href='https://free.aicte-india.org/'target='_blank'style='color: blue'><u>https://free.aicte-india.org</u></a> 
+ 5. <b>Startup</b> : <a href='https://rb.gy/a1zgev'target='_blank'style='color: blue'><u>https://rb.gy/a1zgev</u></a> 
+ 6. <b>Centralised support system</b>: <a href='https://css.aicte-india.org/login'target='_blank'style='color: blue'><u>https://css.aicte-india.org/login</u></a> 
+ 7.<b> Swayam</b>: <a href='https://swayam.gov.in/' target='_blank'style='color: blue'><u>https://swayam.gov.in</u></a> 
+utter_contd,Would you like to explore more? (yes/no)
+h_college,Mahavidyalaya,,,utter_h_college,AICTE dvara anumodit sabi mahaavidyaalay ke liye link dekhen https://facilities.aicte-india.org/dashboard/pages/dashboardaicte.php
+h_college,Mahavidyalaya,,,utter_h_college,AICTE dvara anumodit sabi mahaavidyaalay ke liye link dekhen https://facilities.aicte-india.org/dashboard/pages/dashboardaicte.php
+tell_joke,joke,,,utter_joke,B never sweats, because its between AC  ( A B C.. )
+nlu_fallback,i want chocolate,,,utter_out_of_scope,Sorry Din't get that, kindly rephrase your statement.
+deny,im sorry,,,utter_goodbye,Indeed our pleasure helping you 
+ Hope your queries are met if not <b>contact us</b> using:  <a href='https://bit.ly/3vGkCni!'target='_blank' style='color: blue'><u>https://bit.ly/3vGkCni!</u></a>
+utter_service, Are you satisfied with the service?
+good_service,/good_service,,,nlu_fallback,im madhumitha,,,utter_out_of_scope,Sorry Din't get that, kindly rephrase your statement.
+affirm,ok,,,utter_mainmenu,Do you want to know anything from below?
+goodbye,thank you,,,utter_goodbye,Our pleasure assiting you 
+ Hope your queries are met if not <b>contact us</b> using:  <a href='https://bit.ly/3vGkCni!'target='_blank' style='color: blue'><u>https://bit.ly/3vGkCni!</u></a>
+deny,no,,,utter_goodbye,Thank you,bye 
+ Hope your queries are met, if not <b>contact us</b> using:  <a href='https://bit.ly/3vGkCni'target='_blank' style='color: blue'><u>https://bit.ly/3vGkCni</u></a>
+utter_service, Are you satisfied with the service?
+bad_service,/bad_service,,,greet,hi,,,utter_mainmenu,Do you want to know anything from below?
+deny,no,,,utter_goodbye,Indeed our pleasure helping you 
+ Hope your queries are met if not <b>contact us</b> using:  <a href='https://bit.ly/3vGkCni!'target='_blank' style='color: blue'><u>https://bit.ly/3vGkCni!</u></a>
+utter_service, Are you satisfied with the service?
+bad_service,/bad_service,,,greet,hi,,,utter_mainmenu,Do you want to know anything from below?
+mainmenu_links,/mainmenu_links,,,utter_mainmenu_links,1. <b>User Manual</b> : <a href='https://www.aicte-india.org/downloads/AICTE_Help_Manual.pdf'target='_blank' style='color: blue'><u>https://www.aicte-india.org/downloads/AICTE_Help_Manual.pdf </u></a> 
+ 2. <b>Login</b> : <a href='https://bit.ly/3tTMMbX' target='_blank'style='color: blue'><u>https://bit.ly/3tTMMbX</u></a> 
+ 3. <b>Smart India Hackathon</b>: <a href='https://rb.gy/tdg2f3'target='_blank' style='color: blue'><u>https://rb.gy/tdg2f3</u></a> 
+ 4. <b>Free courses </b>: <a href='https://free.aicte-india.org/'target='_blank'style='color: blue'><u>https://free.aicte-india.org</u></a> 
+ 5. <b>Startup</b> : <a href='https://rb.gy/a1zgev'target='_blank'style='color: blue'><u>https://rb.gy/a1zgev</u></a> 
+ 6. <b>Centralised support system</b>: <a href='https://css.aicte-india.org/login'target='_blank'style='color: blue'><u>https://css.aicte-india.org/login</u></a> 
+ 7.<b> Swayam</b>: <a href='https://swayam.gov.in/' target='_blank'style='color: blue'><u>https://swayam.gov.in</u></a> 
+utter_contd,Would you like to explore more? (yes/no)
+affirm,yes,,,utter_mainmenu,Do you want to know anything from below?
+mainmenu_features,/mainmenu_features,,,utter_mainmenu_features,Hope the following is useful
+courses,/courses,,,utter_courses,<b>AICTE</b> provides various <b>free courses</b> and <b>internship opportunities</b> on famous learning platforms.
+ Find them under quick links <b>(AICTE AI-language transalational tool)</b> or try using <a href='https://free.aicte-india.org/' target='_blank'style='color: blue'><u>https://free.aicte-india.org/</u></a> 
+ <br><b>Right click to view image in new tab.</b>
+utter_contd,Would you like to explore more? (yes/no)
+affirm,yes,,,utter_mainmenu,Do you want to know anything from below?
+mainmenu_about,/mainmenu_about,,,utter_mainmenu_about,Check the following for more info about AICTE
+need,/need,,,utter_need,All India Council for Technical Education <b>(AICTE)</b> was set up in <b>November 1945</b> as a national-level Apex Advisory Body to conduct a survey on the facilities available for <b>technical education</b> and to promote development in the country in a coordinated and integrated manner. <iframe width='220' height='215' allowfullscreen src='https://www.youtube.com/embed/3n38eCVjIak?controls=1&mute=0'> </iframe>
+utter_contd,Would you like to explore more? (yes/no)
+affirm,yes,,,utter_mainmenu,Do you want to know anything from below?
+play_video,play video,,,utter_contd,Would you like to explore more? (yes/no)
+affirm,yes,,,utter_mainmenu,Do you want to know anything from below?
+mainmenu_about,/mainmenu_about,,,utter_mainmenu_about,Check the following for more info about AICTE
+college,/college,,,utter_college,Check out the link to find all <b>AICTE approved colleges</b> <a href='https://facilities.aicte-india.org/dashboard/pages/dashboardaicte.php' target='_blank'style='color: blue'><u>https://facilities.aicte-india.org/dashboard/pages/angulardashboard.php#!/approved</u></a> 
+ <br><b>Right click to view image in new tab.</b>
+utter_contd,Would you like to explore more? (yes/no)
+college,colleges,,,utter_college,Check out the link to find all <b>AICTE approved colleges</b> <a href='https://facilities.aicte-india.org/dashboard/pages/dashboardaicte.php' target='_blank'style='color: blue'><u>https://facilities.aicte-india.org/dashboard/pages/angulardashboard.php#!/approved</u></a> 
+ <br><b>Right click to view image in new tab.</b>
+utter_contd,Would you like to explore more? (yes/no)
+college,colleges,,,utter_college,Check out the link to find all <b>AICTE approved colleges</b> <a href='https://facilities.aicte-india.org/dashboard/pages/dashboardaicte.php' target='_blank'style='color: blue'><u>https://facilities.aicte-india.org/dashboard/pages/angulardashboard.php#!/approved</u></a> 
+ <br><b>Right click to view image in new tab.</b>
+utter_contd,Would you like to explore more? (yes/no)
+tell_joke,tell a joke,,,utter_joke,B never sweats, because its between AC  ( A B C.. )
+nlu_fallback,i want chob,,,utter_out_of_scope,Sorry Din't get that, kindly rephrase your statement.
+h_college,Mahavidyalaya,,,utter_h_college,AICTE dvara anumodit sabi mahaavidyaalay ke liye link dekhen https://facilities.aicte-india.org/dashboard/pages/dashboardaicte.php
+affirm,ok,,,utter_mainmenu,Do you want to know anything from below?
+menu,/menu,,,utter_menu,Hey !! Choose the domain of query
+submenu_details,/submenu_details,,,utter_submenu_details,How could we help you?
+details_change,/details_change,,,utter_details_change,The details that are non-editable or read-only cannot be changed beyond the specified schedule. 
+ For more info contact the Approval Bureau. 
+ <br><b>NOTE</b>: Make sure the application is re-submitted after changes if any
+utter_contd,Would you like to explore more? (yes/no)
+deny,no,,,utter_goodbye,Bye,have a great day !! 
+ Hope your queries are met if not contact us using:  <a href='https://bit.ly/3vGkCni'target='_blank' style='color: blue'><u>https://bit.ly/3vGkCni</u></a>
+utter_service, Are you satisfied with the service?
+good_service,/good_service,,,display_card,cards,,,display_card,cards,,,greet,hi,,,utter_mainmenu,Do you want to know anything from below?
+mainmenu_links,/mainmenu_links,,,utter_mainmenu_links,1. <b>User Manual</b> : <a href='https://www.aicte-india.org/downloads/AICTE_Help_Manual.pdf'target='_blank' style='color: blue'><u>https://www.aicte-india.org/downloads/AICTE_Help_Manual.pdf </u></a> 
+ 2. <b>Login</b> : <a href='https://bit.ly/3tTMMbX' target='_blank'style='color: blue'><u>https://bit.ly/3tTMMbX</u></a> 
+ 3. <b>Smart India Hackathon</b>: <a href='https://rb.gy/tdg2f3'target='_blank' style='color: blue'><u>https://rb.gy/tdg2f3</u></a> 
+ 4. <b>Free courses </b>: <a href='https://free.aicte-india.org/'target='_blank'style='color: blue'><u>https://free.aicte-india.org</u></a> 
+ 5. <b>Startup</b> : <a href='https://rb.gy/a1zgev'target='_blank'style='color: blue'><u>https://rb.gy/a1zgev</u></a> 
+ 6. <b>Centralised support system</b>: <a href='https://css.aicte-india.org/login'target='_blank'style='color: blue'><u>https://css.aicte-india.org/login</u></a> 
+ 7.<b> Swayam</b>: <a href='https://swayam.gov.in/' target='_blank'style='color: blue'><u>https://swayam.gov.in</u></a> 
+utter_contd,Would you like to explore more? (yes/no)
+deny,no,,,utter_goodbye,Indeed our pleasure helping you 
+ Hope your queries are met if not <b>contact us</b> using:  <a href='https://bit.ly/3vGkCni!'target='_blank' style='color: blue'><u>https://bit.ly/3vGkCni!</u></a>
+utter_service, Are you satisfied with the service?
+good_service,/good_service,,,greet,hi,,,utter_mainmenu,Do you want to know anything from below?
+mainmenu_links,/mainmenu_links,,,utter_mainmenu_links,1. <b>User Manual</b> : <a href='https://www.aicte-india.org/downloads/AICTE_Help_Manual.pdf'target='_blank' style='color: blue'><u>https://www.aicte-india.org/downloads/AICTE_Help_Manual.pdf </u></a> 
+ 2. <b>Login</b> : <a href='https://bit.ly/3tTMMbX' target='_blank'style='color: blue'><u>https://bit.ly/3tTMMbX</u></a> 
+ 3. <b>Smart India Hackathon</b>: <a href='https://rb.gy/tdg2f3'target='_blank' style='color: blue'><u>https://rb.gy/tdg2f3</u></a> 
+ 4. <b>Free courses </b>: <a href='https://free.aicte-india.org/'target='_blank'style='color: blue'><u>https://free.aicte-india.org</u></a> 
+ 5. <b>Startup</b> : <a href='https://rb.gy/a1zgev'target='_blank'style='color: blue'><u>https://rb.gy/a1zgev</u></a> 
+ 6. <b>Centralised support system</b>: <a href='https://css.aicte-india.org/login'target='_blank'style='color: blue'><u>https://css.aicte-india.org/login</u></a> 
+ 7.<b> Swayam</b>: <a href='https://swayam.gov.in/' target='_blank'style='color: blue'><u>https://swayam.gov.in</u></a> 
+utter_contd,Would you like to explore more? (yes/no)
+deny,no,,,utter_goodbye,Our pleasure assiting you 
+ Hope your queries are met if not <b>contact us</b> using:  <a href='https://bit.ly/3vGkCni!'target='_blank' style='color: blue'><u>https://bit.ly/3vGkCni!</u></a>
+utter_service, Are you satisfied with the service?
+good_service,/good_service,,,
