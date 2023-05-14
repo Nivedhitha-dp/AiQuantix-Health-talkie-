@@ -1,0 +1,464 @@
+version: "2.0"
+
+rules:
+   - rule: hlifeline
+     steps:
+       - intent: hlifeline
+       - action: utter_hlifeline
+   - rule: submenu hindigestion
+     steps:
+       - intent: submenu_hindigestion
+       - action: utter_submenu_hindigestion
+   - rule: hindigestion other
+     steps:
+       - intent: hindigestion_other
+       - action: utter_hindigestion_other
+   - rule: token
+     steps:
+       - intent: token
+       - action: utter_token
+       - action: utter_contd
+   - rule: hub
+     steps:
+       - intent: hub
+       - action: utter_hub
+       - action: utter_contd
+   - rule: scanreport
+     steps:
+       - intent: scanreport
+       - action: utter_scanreport
+       - action: utter_contd
+   - rule: appoint cancel
+     steps:
+       - intent: appoint_cancel
+       - action: utter_appoint_cancel
+       - action: utter_contd
+   - rule: appoint reschedule
+     steps:
+       - intent: appoint_reschedule
+       - action: utter_appoint_reschedule
+       - action: utter_contd
+   - rule: about lifeline
+     steps:
+       - intent: lifeline
+       - action: utter_lifeline
+   - rule: about speciality
+     steps:
+       - intent: speciality
+       - action: utter_speciality
+   - rule: about hospital_technology
+     steps:
+       - intent: hospital_technology
+       - action: utter_hospital_technology
+   - rule: about healthtalkie
+     steps:
+       - intent: about_healthtalkie
+       - action: utter_about_healthtalkie
+   - rule: job
+     steps:
+       - intent: job
+       - action: utter_job
+   - rule: jobapp
+     steps:
+       - intent: jobapp
+       - action: utter_contd
+   - rule: thanks
+     steps:
+       - intent: thanks
+       - action: utter_contd
+#   - rule: prod
+#     steps:
+#       - intent: prod
+#       - action: utter_contd
+   - rule: psyapp
+     steps:
+       - intent: psyapp
+       - action: utter_contd
+   - rule: insuranceapp
+     steps:
+       - intent: insuranceapp
+       - action: utter_contd
+   - rule: psycology
+     steps:
+       - intent: psycology
+       - action: utter_psycology
+
+   - rule: insurance
+     steps:
+       - intent: insurance
+       - action: utter_insurance
+
+   - rule: ride
+     steps:
+       - intent: ride
+       - action: utter_contd
+   - rule: candonate
+     steps:
+       - intent: candonate
+       - action: utter_contd
+   - rule: check
+     steps:
+       - intent: check
+       - action: utter_contd
+#   - rule: organ
+#     steps:
+#       - intent: organ
+#       - action: utter_contd
+#   - rule: pain
+#     steps:
+#       - intent: pain
+#       - action: utter_contd
+   - rule: irregular
+     steps:
+       - intent: irregular
+       - action: utter_contd
+   - rule: throat
+     steps:
+       - intent: throat
+       - action: utter_contd
+   - rule: cold
+     steps:
+       - intent: cold
+       - action: utter_contd
+   - rule: heat
+     steps:
+       - intent: heat
+       - action: utter_contd
+#   - rule: indigestion
+#     steps:
+#       - intent: indigestion
+#       - action: utter_contd
+#   - rule: locate
+#     steps:
+#       - intent: locate
+#       - action: utter_contd
+   - rule: general
+     steps:
+       - intent: general
+       - action: utter_contd
+   - rule: Say goodbye anytime the user says goodbye
+     steps:
+       - intent: goodbye
+       - action: utter_goodbye
+
+   - rule: h greet
+     steps:
+       - intent: h_greet
+       - action: utter_h_greet
+
+   - rule: mainmenu appointment
+     steps:
+       - intent: mainmenu_appointment
+       - action: utter_mainmenu_appointment
+
+   - rule: mainmenu explore more
+     steps:
+       - intent: mainmenu_explore_more
+       - action: utter_mainmenu_explore_more
+
+   - rule: call nurse
+     steps:
+       - intent: call_nurse
+       - action: utter_call_nurse
+       - action: utter_contd
+   - rule: canteen_metaverse
+     steps:
+       - intent: canteen_metaverse
+       - action: utter_canteen_metaverse
+       - action: utter_contd
+   - rule: care_ride
+     steps:
+       - intent: care_ride
+       - action: utter_care_ride
+
+   - rule: emergency_ride
+     steps:
+       - intent: emergency_ride
+       - action: utter_emergency_ride
+
+   - rule: mainmenu pharmacy
+     steps:
+       - intent: mainmenu_pharmacy
+       - action: utter_mainmenu_pharmacy
+
+   - rule: submenu med products
+     steps:
+       - intent: submenu_med_products
+       - action: utter_submenu_med_products
+
+   - rule: submenu med drugs
+     steps:
+       - intent: submenu_med_drug
+       - action: utter_submenu_med_drug
+
+   - rule: mainmenu our services
+     steps:
+       - intent: mainmenu_our_services
+       - action: utter_mainmenu_our_services
+
+   - rule: mainmenu emergency assistance
+     steps:
+       - intent: mainmenu_emergency_assitance
+       - action: utter_mainmenu_emergency_assitance
+
+   - rule: mainmenu donation
+     steps:
+       - intent: mainmenu_donation
+       - action: utter_mainmenu_donation
+
+   - rule: blood donation
+     steps:
+       - intent: blood_donation
+       - action: utter_blood_donation
+
+   - rule: organ donation
+     steps:
+       - intent: organ_donation
+       - action: utter_organ_donation
+
+   - rule: charity
+     steps:
+       - intent: charity
+       - action: utter_charity
+       - action: utter_contd
+   - rule: submenu donate
+     steps:
+       - intent: submenu_donate
+       - action: utter_submenu_donate
+
+   - rule: submenu can i donate
+     steps:
+       - intent: submenu_can_i_donate
+       - action: utter_submenu_can_i_donate
+
+   - rule: submenu check status
+     steps:
+       - intent: submenu_check_status
+       - action: utter_submenu_check_status
+
+   - rule: mainmenu remedies
+     steps:
+       - intent: mainmenu_remedies
+       - action: utter_mainmenu_remedies
+
+   - rule: mainmenu locateus
+     steps:
+       - intent: mainmenu_locateus
+       - action: utter_mainmenu_locateus
+
+   - rule: mainmenu inpatientassistance
+     steps:
+       - intent: mainmenu_inpatientassistance
+       - action: utter_mainmenu_inpatientassistance
+
+
+
+   - rule: submenu general consultant
+     steps:
+       - intent: submenu_general_consultant
+       - action: utter_submenu_general_consultant
+
+
+
+   - rule: submenu pediatrician
+     steps:
+       - intent: submenu_pediatrician
+       - action: utter_submenu_pediatrician
+
+   - rule: submenu vaccination
+     steps:
+       - intent: submenu_vaccination
+       - action: utter_submenu_vaccination
+
+   - rule: vaccination chart
+     steps:
+       - intent: vaccination_chart
+       - action: utter_vaccination_chart
+       - action: utter_contd
+   - rule: vaccination time
+     steps:
+       - intent: vaccination_time
+       - action: utter_vaccination_time
+       - action: utter_contd
+
+#   - rule: pedia
+#     steps:
+#       - intent: pedia
+#       - action: utter_contd
+
+
+   - rule: submenu specialists
+     steps:
+       - intent: submenu_specialists
+       - action: utter_submenu_specialists
+
+
+   - rule: submenu boy
+     steps:
+       - intent: submenu_boy
+       - action: utter_submenu_boy1
+       - action: utter_submenu_boy2
+       - action: utter_contd
+
+   - rule: submenu girl
+     steps:
+       - intent: submenu_girl
+       - action: utter_submenu_girl1
+       - action: utter_submenu_girl2
+       - action: utter_contd
+
+   - rule: submenu menstrual
+     steps:
+       - intent: submenu_menstrual
+       - action: utter_submenu_menstrual
+
+
+   - rule: submenu throat
+     steps:
+       - intent: submenu_throat
+       - action: utter_submenu_throat
+
+
+   - rule: submenu heat
+     steps:
+       - intent: submenu_heat
+       - action: utter_submenu_heat
+
+
+   - rule: submenu indigestion
+     steps:
+       - intent: submenu_indigestion
+       - action: utter_submenu_indigestion
+
+
+   - rule: sub sub pain
+     steps:
+       - intent: sub_sub_pain
+       - action: utter_sub_sub_pain
+
+
+   - rule: sub sub irregular
+     steps:
+       - intent: sub_sub_irregular
+       - action: utter_sub_sub_irregular
+
+
+   - rule: pain other
+     steps:
+       - intent: pain_other
+       - action: utter_pain_other
+
+
+   - rule: irregular other
+     steps:
+       - intent: irregular_other
+       - action: utter_irregular_other
+
+
+   - rule: sub sub throat
+     steps:
+       - intent: sub_sub_throat
+       - action: utter_sub_sub_throat
+
+
+   - rule: sub sub cold
+     steps:
+       - intent: sub_sub_cold
+       - action: utter_sub_sub_cold
+
+
+   - rule: throat other
+     steps:
+       - intent: throat_other
+       - action: utter_throat_other
+
+
+   - rule: cold other
+     steps:
+       - intent: cold_other
+       - action: utter_cold_other
+
+
+   - rule: irregular other
+     steps:
+       - intent: irregular_other
+       - action: utter_irregular_other
+
+   - rule: heat other
+     steps:
+       - intent: heat_other
+       - action: utter_heat_other
+
+
+   - rule: indigestion other
+     steps:
+       - intent: indigestion_other
+       - action: utter_indigestion_other
+
+   - rule: Say 'I am a bot' anytime the user challenges
+     steps:
+       - intent: tell_name
+       - action: utter_name
+       - action: utter_contd
+
+   - rule: out-of-scope
+     steps:
+       - intent: nlu_fallback
+       - action: utter_out_of_scope
+
+   - rule: fall-back
+     steps:
+       - intent: out_off_scope
+       - action: utter_out_of_scope
+
+   - rule: virtual consultation
+     steps:
+       - intent: virtual_consultation
+       - action: utter_virtual_consultation
+       - action: utter_contd
+   - rule: menu
+     steps:
+       - intent: greet
+       - action: utter_greet
+       - action: utter_mainmenu
+
+
+   - rule: prescription
+     steps:
+       - intent: prescription
+       - action: action_upload
+       - action: utter_contd
+
+   - rule: continue affirm path
+     steps:
+       - intent: affirm
+       - action: utter_mainmenu
+
+   - rule: ambulance
+     steps:
+       - intent: ambulance
+       - action: action_make_phone_call
+       - action: utter_contd
+
+   - rule: continue deny path
+     steps:
+       - intent: deny
+       - action: utter_goodbye
+       - action: utter_service
+
+   - rule: pregnancykit
+     steps:
+       - intent: pregnancykit
+       - action: utter_pregnancykit
+   - rule: service path
+     steps:
+       - intent: good_service
+       - action: utter_feedback
+       - action: action_save_conversation
+
+
+   - rule: service bad path
+     steps:
+       - intent: bad_service
+       - action: utter_feedback
+       - action: action_save_conversation

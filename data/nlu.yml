@@ -1,0 +1,1272 @@
+version: "2.0"
+
+nlu:
+  - intent: scanreport
+    examples: |
+      - Is my scan report ready?
+      - Is my scan report ready?
+      - Is my scan report ready?
+      - Is my scan report ready?
+      - Is my scan report ready?
+
+  - intent: hlifeline
+    examples: |
+      - laiphalain hospital ke baare mein bataie.
+      - laiphalain hospital ke baare mein bataie.
+      - laiphalain hospital ke baare mein bataie.
+      - laiphalain hospital ke baare mein bataie.
+      - laiphalain hospital ke baare mein bataie.
+
+  - intent: submenu_hindigestion
+    examples: |
+      - paachan sambandhee samasya ke upachaar bataie.
+      - paachan sambandhee samasya ke upachaar bataie.
+      - paachan sambandhee samasya ke upachaar bataie.
+      - paachan sambandhee samasya ke upachaar bataie.
+      - paachan sambandhee samasya ke upachaar bataie.
+      - paachan sambandhee samasya ke upachaar bataie.
+
+  - intent: hindigestion_other
+    examples: |
+      - any vikalpon mein se chunen
+      - any vikalpon mein se chunen
+      - any vikalpon mein se chunen
+      - ke lie vaikalpik
+      - ke lie vaikalpik
+      - ke lie vaikalpik
+
+
+
+
+  - intent: token
+    examples: |
+      - Want To Check Token Number
+      - Want To Check Token Number
+      - Want To Check Token Number
+      - Current Status Of Token Number
+      - Current Status Of Token Number
+      - Current Status Of Token Number
+      - Current Status Of Token Number
+      - Token Number
+      - Token Number
+      - Token Number
+      - Token Number
+      - Token Status
+      - Token Status
+      - Token Status
+      - Token Status
+  - intent: hub
+    examples: |
+      - take me to patient Monitoring hub
+      - take me to patient Monitoring hub
+      - take me to patient Monitoring hub
+      - take me to patient Monitoring hub
+      - take me to patient Monitoring hub
+      - take me to patient Monitoring hub
+      - patient Monitoring hub
+      - patient Monitoring hub
+      - patient Monitoring hub
+      - patient Monitoring hub
+      - patient Monitoring hub
+      - patient monitoring
+      - patient monitoring
+      - patient monitoring
+  - intent: appoint_cancel
+    examples: |
+      - cancel appoint
+      - Cancel appointment
+      - Cancel Appointment
+      - Cancel Booking
+      - Appointment cancellation
+      - Cancel appointment
+      - Cancel appointment
+      - Cancel appointment
+      - Cancel appointment
+      - Want to cancel my appointment
+      - Want to cancel my appointment
+      - Want to cancel my appointment
+      - Want to cancel my appointment
+
+
+  - intent: appoint_reschedule
+    examples: |
+      - Reschedule Appointment
+      - Reschedule
+      - Reschedule Appointment Booking
+      - Reschedule appointment
+      - Reschedule appointment
+      - Reschedule appointment
+      - Reschedule appointment
+      - reschedule appointment
+      - reschedule appointment
+      - reschedule appointment
+      - reschedule appointment
+      - Wanna reschedule my appointment
+      - Wanna reschedule my appointment
+      - Wanna reschedule my appointment
+      - Want to reschedule my appointment
+      - Want to reschedule my appointment
+      - Want to reschedule my appointment
+  - intent: lifeline
+    examples: |
+      - lifeline
+      - lifeline
+      - lifeline
+      - lifeline
+      - lifeline
+      - hospital
+      - lifeline hospital
+      - lifeline speciality
+      - hospital
+      - Tell me about the lifeline
+      - Tell me about the lifeline
+      - Tell me about the lifeline
+      - Tell me about the lifeline
+      - Tell me about the lifeline
+      - Tell me about the lifeline
+      - Tell me about the lifeline
+
+  - intent: speciality
+    examples: |
+      - speciality
+      - speciality
+      - medical story
+      - special points
+      - specialness
+      - special lifeline
+      - speciality
+      - speciality
+      - speciality
+      - What speciality in  this hospital?
+      - What speciality in  this hospital?
+      - What speciality in  this hospital?
+      - What speciality in  this hospital?
+      - What speciality in  this hospital?
+      - What speciality in  this hospital?
+      - What speciality in  this hospital?
+
+  - intent: hospital_technology
+    examples: |
+      - technology
+      - technology advancement
+      - technically strong
+      - technical advance
+      - advanced technology
+      - technologically developed
+      - What technology is here?
+      - What technology is here?
+      - What technology is here?
+      - What technology is here?
+      - What technology you have?
+      - What technology you have?
+  - intent: about_healthtalkie
+    examples: |
+      - healthtalkie
+      - healthtalkie
+      - healthtalkie
+      - healthtalkie
+      - healthtalkie
+      - name
+      - name
+      - name
+      - who are you?
+      - who are you?
+      - who are you?
+      - who are you?
+      - who are you?
+      - who are you?
+      - who are you?
+  - intent: job
+    examples: |
+      - Job Application
+      - Job Application
+      - Job Application
+      - Job Application
+      - Job Application Form
+      - Job Application Form
+      - Job Application Form
+      - Job Application Form
+      - job
+      - Job
+      - vacancy for doctor or nurse
+      - vacancy for doctor or nurse
+      - vacancy for doctor or nurse
+      - vacancy for doctor or nurse
+      - vacancy for doctor
+      - vacancy for doctor
+      - vacancy for doctor
+      - vacancy for doctor
+      - vacancy for nurse
+      - vacancy for nurse
+      - vacancy for nurse
+      - vacancy for nurse
+      - I want to apply for a job at your hospital
+      - I want to apply for a job at your hospital
+      - I want to apply for a job at your hospital
+      - I want to apply for a job at your hospital
+      - I want to apply for a job at your hospital
+      - I want to apply for a job at your hospital
+      - Application form
+      - Application Form
+      - Job
+      - job
+      - Job
+      - job
+
+
+
+  - intent: psycology
+    examples: |
+      - Assistance of a psychiatrist
+      - Assistance of a psychiatrist
+      - Assistance of a psychiatrist
+      - Assistance of a psychiatrist
+      - Assistance of a psychiatrist
+      - psychiatrist
+      - psychiatrist
+      - psychiatrist
+      - psychiatrist
+
+
+  - intent: insurance
+    examples: |
+      - Insurance Claim Form
+      - Insurance Claim Form
+      - Insurance Claim Form
+      - Insurance Claim Form
+      - Insurance Form
+      - Insurance Form
+      - Insurance Form
+      - Insurance Form
+      - Insurance Claim
+      - Insurance Claim
+      - insurance
+      - Insurance
+      - insurance
+      - Insurance
+
+#  - intent: prod
+#    examples: |
+#      - products
+#      - products
+#      - Products
+#      - Thanks
+#      - thanks
+  - intent: thanks
+    examples: |
+      - thanks
+      - Thanks
+      - Thanks for input
+      - Thanks you
+  - intent: ride
+    examples: |
+      - ride
+      - ride
+      - ride
+      - ride
+      - care ride
+      - care ride
+  - intent: jobapp
+    examples: |
+      - job
+      - job
+      - job
+      - Job application
+  - intent: psyapp
+    examples: |
+      - Psycology
+      - Psycology
+      - Psycology
+      - Psycology application
+  - intent: insuranceapp
+    examples: |
+      - insurance
+      - insurance
+      - insurance
+      - insurance form
+  - intent: general
+    examples: |
+      - general
+      - general
+      - general
+      - general consultant
+      - gendral consultant
+      - consultant
+  - intent: pedia
+    examples: |
+      - pediatrician
+      - pediatrician
+      - pediatrician
+      - pedia
+      - pedia
+  - intent: candonate
+    examples: |
+      - donate
+      - donate
+      - donate
+      - can
+      - can donate
+  - intent: check
+    examples: |
+      - check
+      - check
+      - check
+      - status
+      - status
+#  - intent: organ
+#    examples: |
+#        - organ
+#        - organ
+#        - organ
+#        - organ donation
+#        - organ donation
+#  - intent: pain
+#    examples: |
+#      - pain
+#      - pain
+#      - menstrual pain
+#      - menstrual pain
+#  - intent: irregular
+#    examples: |
+#      - irregular
+#      - irregular
+#      - menstrual irregular
+#  - intent: throat
+#    examples: |
+#      - throat
+#      - sore throat
+#      - throat
+#      - sore throat
+#  - intent: cold
+#    examples: |
+#      - cold
+#      - cold and flu
+#      - cold
+#      - cold and flu
+#  - intent: heat
+#    examples: |
+#      - heat
+#      - heat
+#      - body heat
+#      - body heat
+#  - intent: indigestion
+#    examples: |
+#      - indigestion
+#      - indigestion
+#      - indigestion
+#      - indigestion problem
+#  - intent: locate
+#    examples: |
+#      - locate
+#      - locate
+#      - locate us
+#      - locate us
+  - intent: h_greet
+    examples: |
+      - shubh prabhaat
+      - susandhya
+      - namaskaar
+      - namasthe
+      - namaste
+      - shubh prabhaat
+      - susandhya
+      - namaskaar
+      - namasthe
+      - namaste
+      - shubh prabhaat
+      - susandhya
+      - namaskaar
+      - namasthe
+      - namaste
+  - intent: greet
+    examples: |
+      - hey
+      - hello
+      - hi
+      - hello there
+      - good morning
+      - good evening
+      - moin
+      - hey there
+      - let's go
+      - hey dude
+      - goodmorning
+      - goodevening
+      - good afternoon
+      - hai
+      - vanakkam
+      - vanakam
+      - hey buddy
+      - hey hi
+      - whats up
+      - what's up
+      - wassup
+  - intent: submenu_vaccination
+    examples: |
+      - check about vaccination
+      - check about vaccination
+      - check about vaccination
+      - check about vaccination
+      - check about vaccination
+      - check about vaccination
+      - vaccine
+      - vaccine
+  - intent: vaccination_chart
+    examples: |
+      - chart
+      - chart
+      - chart
+      - chart
+      - chart
+      - chart
+      - chart
+      - vaccination Schedule
+      - vaccination Schedule
+      - vaccination Schedule
+      - Check Vaccination Schedule
+      - Check Vaccination Schedule
+      - Check Vaccination Schedule
+      - Let Me Know Vaccination Schedule
+      - Let Me Know Vaccination Schedule
+      - Let Me Know Vaccination Schedule
+      - Let Me Know Vaccination Schedule
+  - intent: vaccination_time
+    examples: |
+      - vaccination timings
+      - vaccination timings
+      - vaccination timings
+      - vaccination timings
+      - vaccination timings
+      - vaccination timings
+      - vaccination timings
+      - vaccination timings
+      - timings
+      - timings
+      - timings
+      - timings
+  - intent: goodbye
+    examples: |
+      - cu
+      - good by
+      - cee later
+      - night
+      - bye
+      - bye
+      - nice day
+      - bye bye
+      - see later
+      - thanks
+      - thank
+      - tq
+      - tomorrow
+      - see
+      - byee
+      - bai
+      - have a great day
+      - thq
+      - yup
+      - gn
+
+  - intent: family
+    examples: |
+      - mother
+      - father
+      - sister
+      - brother
+      - owner
+      - made?
+      - made
+      - invented
+      - birth
+      - born
+      - age?
+      - age
+      - family
+      - old
+      - young
+
+  - intent: positive
+    examples: |
+      - cute
+      - smart
+      - interesting
+      - beautiful
+      - simple
+      - easy
+      - brilliant
+      - fantastic
+      - fabulous
+      - wonderful
+      - excellent
+      - enjoy
+      - so cute
+      - very smart
+      - smart
+      - cute
+      - smart
+      - interesting
+      - beautiful
+      - simple
+      - easy
+      - brilliant
+      - fantastic
+      - fabulous
+      - wonderful
+      - excellent
+      - enjoy
+      - so cute
+      - nice
+      - nice
+
+  - intent: negative
+    examples: |
+      - rude
+      - fool
+      - mental
+      - fool
+      - mental
+      - fool
+      - mental
+      - complex
+      - difficult
+      - boring
+      - waste
+      - crazy
+      - idiot
+      - stupid
+      - nonsense
+      - annoying
+      - suck
+      - inefficient
+
+
+
+  - intent: tell_name
+    examples: |
+      - name?
+      - name ?
+      - I call you?
+      - a bot?
+      - a human?
+      - name
+      - name
+      - name
+      - name
+      - name
+      - name
+
+  - intent: tell_joke
+    examples: |
+      - joke
+      - joke
+      - joke
+      - joke
+      - JOke
+      - JOKE
+      - Joke
+      - Jokes
+
+#  - intent: prescription
+#    examples: |
+#      - medicines?
+#      - medicines?
+#      - medicines?
+#      - medicines?
+#      - medicines?
+#      - medicines?
+#      - can you deliver my medicines?
+#      - can you deliver my medicines?
+#      - can you deliver my medicines?
+#      - can you deliver my medicines?
+#      - can you deliver my medicines?
+#      - can you deliver my medicines?
+#      - can you deliver my medicines?
+#      - can you deliver my medicines?
+#      - can you deliver my medicines?
+#      - can you deliver my medicines?
+#      - can you deliver my medicines?
+#      - can you deliver my medicines?
+
+
+  - intent: out_off_scope
+    examples: |
+      - Order a food
+      - is a number?
+      - college are you?
+      - 1
+      - 2
+      - 3
+      - 4
+      - 5
+      - 6
+      - 7
+      - 8
+      - 9
+      - 0
+
+
+  - intent: mainmenu_appointment
+    examples: |
+      - mainmenu
+      - mainmenu
+      - mainmenu
+      - mainmenu
+      - mainmenu
+      - appointment
+      - appointment
+      - appointment booking
+      - book appointment
+      - Book my appointment
+      - Book my appointment
+      - Book my appointment
+      - Book my appointment
+      - Book my appointment
+      - I would like to book an appointment
+      - I would like to book an appointment
+      - I would like to book an appointment
+      - I would like to book an appointment
+      - I would like to book an virtual consultation
+      - I would like to book an virtual consultation
+      - I would like to book an virtual consultation
+
+  - intent: submenu_general_consultant
+    examples: |
+      - general consultant
+      - general
+      - consultant
+
+
+  - intent: submenu_pediatrician
+    examples: |
+      - pediatrician
+      - pediatrician
+      - pediatrician
+      - consult child Specialist
+      - consult child Specialist
+      - consult child Specialist
+      - consult child Specialist
+      - consult child Specialist
+      - Child Doctor
+      - Child Doctor
+      - Child Doctor
+  - intent: submenu_specialists
+    examples: |
+      - consult specialist
+      - consult specialist
+      - consult specialist
+      - consult specialist
+      - specialist
+      - specialist
+      - specialist
+      - specialist
+      - eye doctor
+      - skin doctor
+  - intent: mainmenu_pharmacy
+    examples: |
+      - pharmacy
+      - pharmacy
+      - medicine
+      - pharmacy booking
+  - intent: mainmenu_our_services
+    examples: |
+      - our services
+      - services
+      - service
+      - service
+      - service
+      - service
+  - intent: mainmenu_explore_more
+    examples: |
+      - explore
+      - explore
+      - explore
+      - explore
+      - explore more
+  - intent: call_nurse
+    examples: |
+      - Number to call a nurse
+      - Number to call a nurse
+      - Number to call a nurse
+      - Number to call a nurse
+      - Number to call a nurse
+      - Number to call a nurse
+      - Number to call a nurse
+      - call a nurse
+      - call
+      - Landline number
+      - Landline number
+      - Landline number
+      - Landline number
+      - Landline number
+      - phone
+      - nurse number
+      - nurse number
+      - nurse number
+      - nurse number
+      - nurse number
+  - intent: canteen_metaverse
+    examples: |
+      - is lunch available at canteen
+      - is lunch available at canteen
+      - lunch
+      - lunch
+      - lunch
+      - lunch
+      - is lunch available at canteen
+      - is lunch available at canteen
+      - is lunch available at canteen
+      - is lunch available at canteen
+      - is lunch available at canteen
+  - intent: submenu_med_products
+    examples: |
+      - kit
+      - kit
+      - kit
+      - pregnancy kit
+      - pregnancy kit
+      - pregnancy kit
+      - pregnancy kit
+      - pregnancy kit
+      - pregnancy kit
+  - intent: pregnancykit
+    examples: |
+      - I need pregnancy tester kit
+      - I need pregnancy tester kit
+      - I need pregnancy tester kit
+      - I need pregnancy tester kit
+      - Is Pregnancy Kit Available?
+      - Is Pregnancy Kit Available?
+      - Is Pregnancy Kit Available?
+      - Is Pregnancy Kit Available?
+      - Is Pregnancy Kit Available?
+      - do you sell pregnancy tester kits?
+      - where to find pregnancy kit
+      - where to find pregnancy kit
+
+
+  - intent: submenu_med_drug
+    examples: |
+      - medicines?
+      - medicines?
+      - medicines?
+      - medicines?
+      - medicines?
+      - medicines?
+      - can you deliver my medicines?
+      - can you deliver my medicines?
+      - can you deliver my medicines?
+      - can you deliver my medicines?
+      - can you deliver my medicines?
+      - can you deliver my medicines?
+      - can you deliver my medicines?
+      - can you deliver my medicines?
+      - can you deliver my medicines?
+      - can you deliver my medicines?
+      - can you deliver my medicines?
+      - can you deliver my medicines?
+  - intent: personal_care
+    examples: |
+      - personal care
+      - personal product
+      - personal
+      - self pamper
+
+  - intent: Health_and_care
+    examples: |
+      - Health care
+      - health
+      - health
+
+  - intent: Ayurvedic
+    examples: |
+      - Ayurvedic
+      - ayurvedha
+      - ayurvedic
+
+  - intent: Diabetic_Needs
+    examples: |
+      - diabetic
+      - diabetice
+      - suger
+
+  - intent: Baby_Needs
+    examples: |
+      - baby needs
+      - toodler
+      - kids
+      - infant
+
+  - intent: Otc_and_Health_Needs
+    examples: |
+      - Otc
+      - volini
+      - balm
+      - amirthanjan
+
+  - intent: mainmenu_emergency_assitance
+    examples: |
+      - emergency
+      - emergency
+      - ambulance
+      - ambulance
+  - intent: care_ride
+    examples: |
+      - care ride
+      - care
+      - ride
+      - care ride
+      - care ride
+      - how can I book my ambulance
+      - how can I book my ambulance
+      - how can I book my ambulance
+      - how can I book my ambulance
+      - can i pre book my ambulance
+      - can i pre book my ambulance
+      - can i pre book my ambulance
+      - can i pre book my ambulance
+      - are there any assistive rides?
+      - are there any assistive rides?
+      - are there any assistive rides?
+      - are there any assistive rides?
+
+  - intent: emergency_ride
+    examples: |
+      - emergency ride
+      - emergency
+      - ride
+      - emergency ride
+      - emergency ride
+  - intent: mainmenu_donation
+    examples: |
+      - donate
+      - donate
+      - donate
+      - donate
+      - donate now
+      - donate us
+  - intent: blood_donation
+    examples: |
+      - donate blood
+      - Donate Blood?
+      - donate blood
+      - donate blood
+  - intent: organ_donation
+    examples: |
+      - Register as organ donor
+      - Register as organ donor
+      - Register as organ donor
+      - Register as organ donor
+      - Register as organ donor
+      - organ donor
+      - organ donor
+      - organ donor
+      - organ donor
+
+
+  - intent: charity
+    examples: |
+      - charity donation
+      - charity
+      - charity
+      - charity
+      - charity
+      - can i donate funds?
+      - can i donate funds?
+      - can i donate funds?
+      - can i donate funds?
+      - How can I make a donation to your charity?
+      - How can I make a donation to your charity?
+      - How can I make a donation to your charity?
+      - How can I make a donation to your charity?
+      - How can I make a donation to your charity?
+
+  - intent: submenu_donate
+    examples: |
+      - donate
+      - donate
+      - donate
+      - How can I Donate Blood?
+      - How can I Donate Blood?
+      - How can I Donate Blood?
+      - How can I Donate Blood?
+      - donation
+      - donation
+      - donation
+      - donation
+      - donation
+
+  - intent: submenu_can_i_donate
+    examples: |
+      - B+ve
+      - B+ve
+      - B+ve
+      - B+ve
+      - B+ve
+      - B+ve
+      - B+ve
+      - B+ve
+      - B+ve
+      - B+ve
+      - can B+ve donate blood to AB+ve?
+      - can B+ve donate blood to AB+ve?
+      - can B+ve donate blood to AB+ve?
+      - can B+ve donate blood to AB+ve?
+      - can B+ve donate blood to AB+ve?
+      - can B+ve donate blood to AB+ve?
+      - can B+ve donate blood to AB+ve?
+      - Can B+ve donate blood to AB+ve?
+      - Can B+ve donate blood to AB+ve?
+      - Can B+ve donate blood to AB+ve?
+      - Can B+ve donate blood to AB+ve?
+      - Can B+ve donate blood to AB+ve?
+      - Can B+ve donate blood to AB+ve?
+      - Can B+ve donate blood to AB+ve?
+      - Can B+ve donate blood to AB+ve?
+      - Can B+ve donate blood to AB+ve?
+
+  - intent: submenu_check_status
+    examples: |
+      - AB+ve?
+      - AB+ve?
+      - AB+ve?
+      - AB+ve?
+      - AB+ve?
+      - Is AB+ve blood available?
+      - Is AB+ve blood available?
+      - Is AB+ve blood available?
+      - Is AB+ve blood available?
+      - Is AB+ve blood available
+      - Is AB+ve blood available
+      - Is AB+ve blood available
+      - Is AB+ve blood available
+      - Is AB+ve blood available
+      - Is AB+ve blood available
+      - Is AB+ve blood available
+      - blood available
+      - blood available
+      - blood available
+      - blood available
+      - blood available
+      - blood available
+      - blood available
+      - blood available
+      - blood available
+      - blood available
+
+  - intent: virtual_consultation
+    examples: |
+      - virtual
+      - virtual consultation
+      - virtual consulation
+      - virtual consulation
+      - virtual consulation
+  - intent: mainmenu_remedies
+    examples: |
+      - home remedies
+      - home assistance
+      - home remedies
+      - home remedies
+  - intent: submenu_menstrual
+    examples: |
+      - menstrual problem
+      - periods problem
+      - periods problem
+      - Remedies For Menstrual Problems
+      - Remedies For Menstrual Problems
+      - Remedies For Menstrual Problems
+      - Remedies For Menstrual Problems
+      - Remedies For Menstrual Problems
+      - periods problem
+      - periods problem
+      - periods problem
+      - Menstrual
+      - Menstrual
+      - Menstrual
+      - Menstrual
+      - Menstrual
+      - Menstrual Problem
+  - intent: sub_sub_pain
+    examples: |
+      - periods cramps
+      - stomach pain
+      - periods pain
+      - periods cramps
+      - periods cramps
+  - intent: sub_sub_irregular
+    examples: |
+      - menstrual irregular
+      - irregularity
+      - irregularity
+      - irregularity
+      - irregularity
+      - periods irregular
+      - irregular
+      - menstrual irregular
+      - menstrual irregular
+      - menstrual irregular
+      - menstrual irregular
+      - home remedies for menstrual irregularity
+      - home remedies for menstrual irregularity
+      - home remedies for menstrual irregularity
+      - home remedies for menstrual irregularity
+      - home remedies for menstrual irregularity
+
+  - intent: pain_other
+    examples: |
+      - alternate solution
+      - other remedies
+      - other
+      - alternate
+      - some other
+      - alternative
+
+  - intent: irregular_other
+    examples: |
+      - alternate solution
+      - other remedies
+      - other
+      - alternate
+      - some other
+      - various
+      - other
+      - alternate
+
+  - intent: submenu_throat
+    examples: |
+      - Remedies for throat infection
+      - Remedies for throat infection
+      - Remedies for throat infection
+      - Remedies for throat infection
+      - Remedies for throat infection
+      - throat infection
+      - throat infection
+      - throat infection
+      - throat infection
+      - throat infection
+      - cold and flu
+      - cold
+      - cough
+  - intent: sub_sub_throat
+    examples: |
+      - sore throat
+      - sore throat
+      - sore throat
+      - sore throat
+      - sore throat
+  - intent: sub_sub_cold
+    examples: |
+      - cold
+      - cold and flu
+      - cough
+      - cold
+      - cold and cough
+  - intent: throat_other
+    examples: |
+      - alternate solution
+      - other remedies
+      - other
+      - alternate
+      - some other
+      - various
+      - other
+      - alternate
+
+  - intent: cold_other
+    examples: |
+      - alternate solution
+      - other remedies for cold
+      - other
+      - alternate
+      - some other
+      - various
+      - other
+      - alternate
+      - cold
+      - cold and flu
+      - cough
+  - intent: submenu_heat
+    examples: |
+      - heat
+      - body heat
+      - heat
+      - overheated
+      - over heat
+      - heat
+      - Body heat
+      - Body heat
+      - Body heat
+      - Body heat
+      - Body heat
+  - intent: heat_other
+    examples: |
+      - heat body solutions
+      - solution
+      - heat body
+      - body heat
+      - heat
+      - alternative
+      - other remedies
+      - other
+  - intent: submenu_indigestion
+    examples: |
+      - give some remedies for Digestive Problem
+      - give some remedies for Digestive Problem
+      - give some remedies for Digestive Problem
+      - give some remedies for Digestive Problem
+      - give some remedies for Digestive Problem
+      - give some remedies for Digestive Problem
+      - give some remedies for Digestive Problem
+      - digestion Problems
+      - stomach upset
+      - stomach
+      - digestive disorder
+      - digestion
+  - intent: indigestion_other
+    examples: |
+      - alternate for
+      - solution for
+      - other solution
+      - other
+  - intent: mainmenu_locateus
+    examples: |
+      - location
+      - locate us
+      - Locate
+      - Locate Us
+      - Locate Us
+      - Location
+      - Give Location
+      - Give Location
+      - place
+      - location
+      - where can i find hospital
+      - where can i find hospital
+      - where can i find hospital
+      - where can i find hospital
+      - hospital location
+      - hospital location
+      - hospital location
+      - hospital location
+      - hospital location
+      - where are your hospitals
+      - where are your hospitals
+      - where are your hospitals
+      - where are your hospitals
+      - where are your hospitals
+
+  - intent: mainmenu_inpatientassistance
+    examples: |
+      - inpatient
+      - in patient
+      - admitted patient
+      - patient
+  - intent: ambulance
+    examples: |
+      - ambulance
+      - call ambulance
+      - ride
+      - call
+      - ambulance
+      - ambulance
+      - call
+      - ambulance
+      - ambulance
+
+
+
+  - intent: good_service
+    examples: |
+      - service good
+      - satisfied very much
+      - very good
+      - service good
+      - satisfied very much
+      - very good
+      - service good
+      - satisfied very much
+      - very good
+      - service good
+      - satisfied very much
+      - very good
+
+  - intent: bad_service
+    examples: |
+      - not ok
+      - not good
+      - not ok
+      - not good
+  - intent: affirm
+    examples: |
+      - yes
+      - yes
+      - yes
+      - yes
+      - yes
+      - yes
+      - yes
+      - yes
+      - yes
+      - y
+      - indeed
+      - of course
+      - that sounds good
+      - correct
+      - sure
+      - okay
+      - ok
+      - hmm
+      - yeah
+      - crt
+      - right
+      - correct
+      - rgt
+      - ri8
+      - fine
+
+  - intent: deny
+    examples: |
+      - no
+      - no
+      - no
+      - no
+      - no
+      - no
+      - no
+      - no
+      - no
+      - no
+      - nope
+      - nope
+      - n
+      - never
+      - I don't think so
+      - don't like that
+      - no way
+      - not really
+      - wont
+      - sorry
+      - cant
+      - can't
+      - dont
+      - no way
+      - not at all
+      - nahi
+      - nope
+      - nah
+  - intent: h_greet
+    examples: |
+      - shubh prabhaat
+      - susandhya
+      - namaskaar
+      - namasthe
+      - namaste
+      - shubh prabhaat
+      - susandhya
+      - namaskaar
+      - namasthe
+      - namaste
+      - shubh prabhaat
+      - susandhya
+      - namaskaar
+      - namasthe
+      - namaste
